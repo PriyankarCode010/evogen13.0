@@ -18,7 +18,7 @@ const MainOrg = (props: Props) => {
     <div className={`text-white pt-10 flex flex-col justify-center items-center border-b-2 border-red-800 ${show ? "bg-white" : "bg-black"} `}>
       {show ? (
         <div className="flex flex-col gap-14 justify-center items-center bg-white">
-          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd">
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700">
             Co-ordinator
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
@@ -27,7 +27,7 @@ const MainOrg = (props: Props) => {
             ))}
           </div>
 
-          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd">
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700">
             College Representative
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
@@ -36,7 +36,7 @@ const MainOrg = (props: Props) => {
             ))}
           </div>
 
-          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd">
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700">
             Developer
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
