@@ -6,27 +6,28 @@ import { useRouter } from 'next/navigation';
 import { MdArrowBackIosNew } from "react-icons/md";
 import About from '@/components/About';
 import Organiser from '@/components/Organiser';
+import { useEffect } from 'react';
 
 type Props = {
     id: string;
 };
 
-
 const EventPage = (props:Props) => {
-
-    console.log(props.id);
-    
 
   const router = useRouter();
 
   const selectedEvent = eventsData.find(event => event.id === props.id);
   const bgImg = eventBg.find(bg => bg.id === props.id);
 
+  useEffect(() => {
+    if (!selectedEvent) {
+      router.push('/404');
+    }
+  }, [selectedEvent, router]);
+
   if (!selectedEvent) {
-    return (
-      <div>
-        <h1>Event not found!</h1>
-      </div>
+    return(
+      <div className="h-screen bg-black"></div>
     );
   }
 
