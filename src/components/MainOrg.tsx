@@ -15,9 +15,9 @@ const MainOrg = (props: Props) => {
   }
 
   return (
-    <div className="bg-black text-white pt-10 flex flex-col justify-center items-center border-b-2 border-red-800">
+    <div className="bg-white text-white pt-10 flex flex-col justify-center items-center border-b-2 border-red-800">
       {show ? (
-        <div className="flex flex-col gap-14 justify-center items-center bg-black">
+        <div className="flex flex-col gap-14 justify-center items-center bg-white">
           <h2 className="text-4xl md:text-7xl font-bold text-center textShwd">
             Co-ordinator
           </h2>
