@@ -33,7 +33,7 @@ const WhatsNew = () => {
         <div className='overflow-y-hidden lg:overflow-x-hidden' ref={scrollContainerRef}>
           <div className='flex flex-row py-7'>
             {eventsData.map((event, index) => (
-              <div key={index} className='flex-1 h-auto min-w-[274px] md:min-w-96 border-l-2 border-red-600'>
+              <div key={index} className='flex-1 h-auto min-w-[274px] md:min-w-[400px] border-l-2 border-red-600'>
                 <h1 className='text-3xl px-2'>{event.name}</h1>
                 <p className='p-4'>{event.description}</p>
               </div>
