@@ -8,13 +8,13 @@ const WhatsNew = () => {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -240, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: -274, behavior: 'smooth' });
     }
   };
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 240, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: 274, behavior: 'smooth' });
     }
   };
 
@@ -30,10 +30,10 @@ const WhatsNew = () => {
             <FaChevronLeft className="h-5 w-5" />
           </button>
         </div>
-        <div className='overflow-x-hidden overflow-y-hidden' ref={scrollContainerRef}>
+        <div className='overflow-y-hidden' ref={scrollContainerRef}>
           <div className='flex flex-row py-7'>
             {eventsData.map((event, index) => (
-              <div key={index} className='flex-1 h-auto min-w-60 md:min-w-96 border-l-2 border-red-600'>
+              <div key={index} className='flex-1 h-auto min-w-[274px] md:min-w-96 border-l-2 border-red-600'>
                 <h1 className='text-3xl px-2'>{event.name}</h1>
                 <p className='p-4'>{event.description}</p>
               </div>
