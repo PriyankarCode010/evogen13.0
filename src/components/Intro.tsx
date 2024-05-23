@@ -12,15 +12,15 @@ const Intro = (props: Props) => {
 
   return (
   <>
-  <div className='flex text-white z-10 text-center w-full absolute translate-x-[-0%] bg-[#0006] py-2 justify-center md:text-sm'>
+  <div className='flex text-white z-10 text-center w-full absolute translate-x-[-0%] bg-[#0006] py-2 justify-center'>
     <div className=''>
-      <span className='md:text-xl'>Karnatak Law Society&apos;s</span>
+    <span className='text-xs md:text-xl'>Karnatak Law Society&apos;s</span>
         <br />
-      <span className='font-semibold md:text-2xl'>Gogte College of Commerce</span>
+      <span className='font-semibold text-xs md:text-2xl'>Gogte College of Commerce</span>
         <br />
-      <span className='font-bold text-xl md:text-2xl'>Bachelor of Computer Applications</span>
+      <span className='font-bold text-xs md:text-2xl'>Bachelor of Computer Applications</span>
         <br />
-      <span className='font-thin md:text-xl'>Presents</span>
+      <span className='font-thin text-xs'>Presents</span>
     </div>
     </div>
     <div className="flex flex-col justify-center items-center w-full h-screen video-container">

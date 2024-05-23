@@ -18,7 +18,6 @@ const Previouswinner = (props: Props) => {
               height={200}
             />
           </div>
-          <hr className='bg-white'></hr>
           <div className='flex-1 text-center md:text-left'>
             <h1 className='text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold mb-4 md:mb-8'>Evogen 11.0</h1>
             <div className='text-white text-sm md:text-base lg:text-lg'>
