@@ -13,8 +13,10 @@ const Intro = (props: Props) => {
   return (
   <>
   <div className='flex text-white z-10 text-center w-full absolute translate-x-[-0%] bg-[#0006] py-2 justify-center'>
-    <div className=''>
-    <span className='text-xs md:text-xl'>Karnatak Law Society&apos;s</span>
+    <div className='flex-1'>
+    </div>
+    <div className='flex-grow'>
+      <span className='text-xs md:text-xl'>Karnatak Law Society&apos;s</span>
         <br />
       <span className='font-semibold text-xs md:text-2xl'>Gogte College of Commerce</span>
         <br />
@@ -22,7 +24,10 @@ const Intro = (props: Props) => {
         <br />
       <span className='font-thin text-xs'>Presents</span>
     </div>
+    <div className='flex-1'>
+
     </div>
+  </div>
     <div className="flex flex-col justify-center items-center w-full h-screen video-container">
       <video autoPlay loop muted className="video-bg absolute">
         <source src='./Images/newbgvideo.mp4'/>
