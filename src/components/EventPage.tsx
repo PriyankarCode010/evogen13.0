@@ -9,15 +9,13 @@ import Organiser from '@/components/Organiser';
 import { useEffect } from 'react';
 
 type Props = {
-    id: string;
+  id: string;
 };
 
-const EventPage = (props:Props) => {
-
+const EventPage = ({ id }: Props) => {
   const router = useRouter();
 
-  const selectedEvent = eventsData.find(event => event.id === props.id);
-  const bgImg = eventBg.find(bg => bg.id === props.id);
+  const selectedEvent = eventsData.find(event => event.id === id);
 
   useEffect(() => {
     if (!selectedEvent) {
@@ -26,16 +24,16 @@ const EventPage = (props:Props) => {
   }, [selectedEvent, router]);
 
   if (!selectedEvent) {
-    return(
+    return (
       <div className="h-screen bg-black"></div>
     );
   }
 
-  const { description, faculty, heads,rules,logo,bg } = selectedEvent;
+  const { description, faculty, heads, rules, logo, bg } = selectedEvent;
 
   return (
     <>
-       <nav className="h-12 absolute m-4 md:m-8 z-40">
+      <nav className="h-12 absolute m-4 md:m-8 z-40">
         <button
           className="bg-red-600 px-4 py-2 rounded-lg text-white font-bold text-lg md:text-xl flex justify-center items-center"
           onClick={() => router.back()}
@@ -45,21 +43,21 @@ const EventPage = (props:Props) => {
           </div>
           <div>Home</div>
         </button>
-      </nav> 
-      <div className='pb-5 bg-black'>
+      </nav>
+      <div className="pb-5 bg-black">
         <div
-          className='flex flex-col justify-center items-center h-screen'
+          className="flex flex-col justify-center items-center h-screen"
           style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
         >
-          <h1 className='text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7 shadoww'>
+          <h1 className="text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7">
             {selectedEvent.name}
           </h1>
-          <p className='text-2xl font-semibold text-red-800 shadoww text-center shadoww bg-[#0005] px-2'>
+          <p className="text-2xl font-semibold text-red-800 text-center bg-[#0005] px-2">
             {selectedEvent.tagline}
           </p>
         </div>
         <hr />
-        <div className='flex justify-center p-3'>
+        <div className="flex justify-center p-3">
           <About rules={rules} description={description} logo={logo} />
         </div>
       </div>
