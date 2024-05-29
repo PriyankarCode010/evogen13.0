@@ -48,17 +48,15 @@ const EventPage = (props:Props) => {
       </nav> 
       <div className='pb-5 bg-black'>
         <div
-          className='flex flex-col justify-center items-center h-screen blur-md'
+          className='flex flex-col justify-center items-center h-screen'
           style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
         >
-          <div className="flex justify-center items-center z-40">
           <h1 className='text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7 shadoww'>
             {selectedEvent.name}
           </h1>
           <p className='text-2xl font-semibold text-red-800 shadoww text-center shadoww bg-[#0005] px-2'>
             {selectedEvent.tagline}
           </p>
-          </div>
         </div>
         <hr />
         <div className='flex justify-center p-3'>
