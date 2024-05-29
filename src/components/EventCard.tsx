@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { Fade } from 'react-awesome-reveal';
 import Link from 'next/link';
-import Image from 'next/image';
 import { FaRegHeart,FaHeart } from "react-icons/fa";
 
 type Event = {
@@ -22,22 +20,21 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
 
   return (
     <>
-      <Fade direction='left'>
       <div className="flex max-w-[85vw] flex-col items-center rounded-lg my-5 shadow-lg md:flex-row bg-gray-950 text-white">
-        <div className="h-full w-full md:w-[55vw] flex-1">
+        <div className="md:w-[55vw] flex-1 flex justify-center items-center bg-gray-950">
           <img
             src={event.logo}
             alt="Laptop"
-            className="h-full w-full rounded-md object-cover"
+            className=" h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
           />
         </div>
         <div className='flex-[2]'>
-          <div className="p-4 flex flex-col gap-5">
-            <div className="items-center text-3xl font-semibold flex justify-between">
-              {event.name} <button className='mx-5' onClick={()=>setLike(!like)}><div>{like?<FaHeart  className=' text-red-700'/>:<FaRegHeart />}</div></button>
+          <div className="p-2 flex flex-col gap-5">
+            <div className="items-center text-4xl font-semibold flex justify-between py-2">
+              {event.name} <button className='pr-5' onClick={()=>setLike(!like)}><div>{like?<FaHeart  className='text-red-700'/>:<FaRegHeart />}</div></button>
             </div>
-            <h2 className='uppercase font-semibold text-slate-400'>{event.id}</h2>
-            <p className="text-sm text-slate-500">
+            <h2 className='uppercase text-xl font-extrabold text-slate-400 pt-3'>{event.id}</h2>
+            <p className="text-xl text-slate-500">
               {event.description}
             </p>
             <Link href={`/event/${event.id}`}>
@@ -46,7 +43,6 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
             </div>
         </div>
       </div>
-      </Fade>
     </>
   //bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center md:w-auto 
 );

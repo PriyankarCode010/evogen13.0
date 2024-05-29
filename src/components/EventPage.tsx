@@ -31,7 +31,7 @@ const EventPage = (props:Props) => {
     );
   }
 
-  const { rules, faculty, heads } = selectedEvent;
+  const { description, faculty, heads,rules,logo } = selectedEvent;
 
   return (
     <>
@@ -60,7 +60,7 @@ const EventPage = (props:Props) => {
         </div>
         <hr />
         <div className='flex justify-center p-3'>
-          <About rules={rules} />
+          <About rules={rules} description={description} logo={logo} />
         </div>
       </div>
       <div>
