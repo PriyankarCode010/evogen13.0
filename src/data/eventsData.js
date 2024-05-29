@@ -4,7 +4,7 @@ const eventsData = [
     name: "Paradox",
     tagline: "The end is the beginning and the beginning is the end.",
     logo: "./Images/events/coding.png",
-    bg:"../Images/eventbg/codingbg.jpg",
+    bg:"./Images/eventbg/codingbg.jpg",
     description:
       "Paradox is the ultimate coding event for students aiming to unlock their true potential and elevate their coding skills. With a diverse range of fun and challenging coding problems to solve, participants will have the opportunity to push their limits and expand their knowledge.",
     rules: [

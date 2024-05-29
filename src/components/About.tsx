@@ -18,7 +18,6 @@ const About = (props: Props) => {
             src={logopath}
             alt="Description Logo"
             className=" h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
-            onError={(e) => { e.currentTarget.src = '/path/to/placeholder/image.png'; }}
           />
         </div>
         <div className='flex-[2]'>
