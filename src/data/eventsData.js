@@ -3,7 +3,7 @@ const eventsData = [
     id: "coding",
     name: "Paradox",
     tagline: "The end is the beginning and the beginning is the end.",
-    logo: "/Images/events/coding.png",
+    logo: "./Images/events/coding.png",
     description:
       "Paradox is the ultimate coding event for students aiming to unlock their true potential and elevate their coding skills. With a diverse range of fun and challenging coding problems to solve, participants will have the opportunity to push their limits and expand their knowledge.",
     rules: [
@@ -44,7 +44,7 @@ const eventsData = [
     id: "communication",
     name: "Cerebro Voice",
     tagline: "Where communication meets mystery.",
-    logo: "/Images/winners.webp",
+    logo: "./Images/winners.webp",
     description:
     "Dive into 'Upside Voice' where communication becomes an adventure. Engage in themed challenges blending mystery and creativity, from decoding messages to navigating twists in speeches.",
     rules: [
@@ -79,7 +79,7 @@ const eventsData = [
     id: "technocrats",
     name: "The Extraordinary Academy",
     tagline: "Ordinary is Overrated.",
-    logo: "/Images/events/logo3_2.png",
+    logo: "./Images/events/logo3_2.png",
     description:
     "Embark on a journey of intellectual prowess and finesse where extraordinary people meet and unleash their pure potential with all skills required to be a master of all traits. Participants demonstrate their mastery across a spectrum of disciplines, from the cerebral realms of logic and problem-solving to the artistry of performance and expression many much more.",
     rules: [
@@ -118,7 +118,7 @@ const eventsData = [
     id: "cyber-security",
     name: "Metacortex",
     tagline: "Decode,Defend,Dominate",
-    logo: "/Images/winners.webp",
+    logo: "./Images/winners.webp",
     description:
       "Metacortex is basically cyber event which describes about the theft done on the DATA USED. Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. cybersecurity measures are designed to combat threats.",
     rules: [
