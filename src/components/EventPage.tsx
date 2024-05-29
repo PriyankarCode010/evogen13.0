@@ -30,6 +30,7 @@ const EventPage = ({ id }: Props) => {
   }
 
   const { description, faculty, heads, rules, logo, bg } = selectedEvent;
+  const bglogo = "."+bg;
 
   return (
     <>
@@ -47,7 +48,7 @@ const EventPage = ({ id }: Props) => {
       <div className="pb-5 bg-black">
         <div
           className="flex flex-col justify-center items-center h-screen"
-          style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+          style={{ backgroundImage: `url(${bglogo})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
         >
           <h1 className="text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7">
             {selectedEvent.name}
