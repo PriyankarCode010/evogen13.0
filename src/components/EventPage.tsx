@@ -48,6 +48,7 @@ const EventPage = ({ id }: Props) => {
       <div className="pb-5 bg-black">
         <div className="relative flex flex-col justify-center items-center h-screen">
             <img src={bglogo} alt="" className="object-cover h-full w-full absolute"/>
+            <div className="object-cover h-full w-full translate-x-[-0%] bg-[#0006]"></div>
             <div className="z-40">
           <h1 className="text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7">
             {selectedEvent.name}
