@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 type Props = {
   description: string;
@@ -7,8 +7,10 @@ type Props = {
 };
 
 const About = (props: Props) => {
-
-  console.log("------", props.logo);
+  
+  useEffect(() => {
+    console.log("Image URL:", props.logo);
+  }, [props.logo]);
 
   return (
     <div className='flex w-full flex-col p-8'>
