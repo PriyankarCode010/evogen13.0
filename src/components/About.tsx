@@ -15,18 +15,18 @@ const About = (props: Props) => {
   return (
     <div className='flex w-full flex-col p-8'>
       <div className="flex w-full flex-col rounded-lg my-5 shadow-lg md:flex-row border-2 border-slate-950 bg-black text-white">
-        <div className="h-full w-full md:w-[55vw] flex-1">
+        <div className="h-full w-full md:w-[55vw] flex-1 flex justify-center items-center border-r-0 border-b-2 border-slate-900 md:border-r-2 md:border-b-0">
           <img
             src={props.logo}
             alt="Description Logo"
-            className="h-full w-full rounded-md object-cover"
+            className=" h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
             onError={(e) => { e.currentTarget.src = '/path/to/placeholder/image.png'; }}
           />
         </div>
         <div className='flex-[2]'>
           <div className="p-4 flex flex-col gap-5">
-            <h2 className='uppercase text-5xl font-semibold text-slate-300 py-5'>About</h2>
-            <p className="text-3xl text-slate-500 break-words">
+            <h2 className='uppercase text-4xl font-semibold text-slate-300 py-5'>About</h2>
+            <p className="text-xl text-slate-500 break-words">
               {props.description}
             </p>
           </div>

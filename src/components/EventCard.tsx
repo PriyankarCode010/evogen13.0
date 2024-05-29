@@ -21,17 +21,17 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
   return (
     <>
       <div className="flex max-w-[85vw] flex-col items-center rounded-lg my-5 shadow-lg md:flex-row bg-gray-950 text-white">
-        <div className="md:w-[55vw] flex-1 flex justify-center items-center bg-gray-950">
+        <div className="md:w-[55vw] flex-1 flex justify-center items-center bg-gray-950 border-b-2 border-slate-900 md:border-b-0">
           <img
             src={event.logo}
             alt="Laptop"
-            className=" h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
+            className="h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
           />
         </div>
         <div className='flex-[2]'>
           <div className="p-2 flex flex-col gap-5">
             <div className="items-center text-4xl font-semibold flex justify-between py-2">
-              {event.name} <button className='pr-5' onClick={()=>setLike(!like)}><div>{like?<FaHeart  className='text-red-700'/>:<FaRegHeart />}</div></button>
+              {event.name} <button className='pr-5' onClick={()=>setLike(!like)}><div>{like?<FaHeart  className='text-red-700 text-3xl'/>:<FaRegHeart className='text-3xl'/>}</div></button>
             </div>
             <h2 className='uppercase text-xl font-extrabold text-slate-400 pt-3'>{event.id}</h2>
             <p className="text-xl text-slate-500">
