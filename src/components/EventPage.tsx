@@ -46,7 +46,7 @@ const EventPage = ({ id }: Props) => {
         </button>
       </nav>
       <div className="pb-5 bg-black">
-        <div className="relative flex flex-col justify-center items-center h-screen">
+        <div className="relative flex flex-col justify-center items-center h-screen overflow-hidden">
             <img src={bglogo} alt="" className="object-cover h-full w-full absolute blur-md"/>
             <div className="absolute h-full w-full translate-x-[-0%] bg-[#0006] "></div>
             <div className="z-40">
