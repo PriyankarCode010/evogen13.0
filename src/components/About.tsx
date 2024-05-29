@@ -20,6 +20,7 @@ const About = (props: Props) => {
             src={props.logo}
             alt="Description Logo"
             className="h-full w-full rounded-md object-cover"
+            onError={(e) => { e.currentTarget.src = '/path/to/placeholder/image.png'; }}
           />
         </div>
         <div className='flex-[2]'>
