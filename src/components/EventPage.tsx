@@ -50,10 +50,10 @@ const EventPage = ({ id }: Props) => {
             <img src={bglogo} alt="" className="object-cover h-full w-full absolute blur-md"/>
             <div className="absolute h-full w-full translate-x-[-0%] bg-[#0006] "></div>
             <div className="z-40">
-          <h1 className="text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7">
+          <h1 className="text-center font-extrabold md:text-7xl text-5xl text-red-500 p-7">
             {selectedEvent.name}
           </h1>
-          <p className="text-2xl font-semibold text-red-800 text-center bg-[#0005] px-2">
+          <p className="text-2xl font-semibold text-red-700 text-center px-2">
             {selectedEvent.tagline}
           </p>
           </div>
