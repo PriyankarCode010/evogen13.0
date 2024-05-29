@@ -23,7 +23,7 @@ const About = (props: Props) => {
         <div className='flex-[2]'>
           <div className="p-4 flex flex-col gap-5">
             <h2 className='uppercase text-4xl font-semibold text-slate-300 py-5'>About</h2>
-            <p className="text-xl text-slate-500 break-words text-justify">
+            <p className="text-xl text-slate-500 break-words">
               {props.description}
             </p>
           </div>

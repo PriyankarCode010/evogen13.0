@@ -36,7 +36,7 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
               {event.name} <button className='pr-5' onClick={()=>setLike(!like)}><div>{like?<FaHeart  className='text-red-700 text-3xl'/>:<FaRegHeart className='text-3xl'/>}</div></button>
             </div>
             <h2 className='uppercase text-xl font-extrabold text-slate-400 pt-3'>{event.id}</h2>
-            <p className="text-xl text-slate-500">
+            <p className="text-xl text-slate-500 text-justify">
               {event.description}
             </p>
             <Link href={`/event/${event.id}`}>
