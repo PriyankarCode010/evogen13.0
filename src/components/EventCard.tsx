@@ -23,7 +23,7 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
     <>
       <div className="flex max-w-[85vw] flex-col items-center rounded-lg my-5 shadow-lg md:flex-row bg-gray-950 text-white">
         <div className="relative md:w-[55vw] flex-1 flex justify-center items-center border-b-2 border-slate-900 md:border-b-0 overflow-hidden">
-          <img src={event.bg} alt="" className='absolute object-cover blur-sm'/>  
+          <img src={event.bg} alt="" className='absolute object-cover blur-[2px]'/>  
           <img
             src={event.logo}
             alt="Laptop"
