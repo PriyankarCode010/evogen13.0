@@ -31,7 +31,7 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
           />
         </div>
         <div className='flex-[2]'>
-          <div className="p-2 flex flex-col gap-5">
+          <div className="p-4 flex flex-col gap-5">
             <div className="items-center text-4xl font-semibold flex justify-between py-2">
               {event.name} <button className='pr-5' onClick={()=>setLike(!like)}><div>{like?<FaHeart  className='text-red-700 text-3xl'/>:<FaRegHeart className='text-3xl'/>}</div></button>
             </div>
