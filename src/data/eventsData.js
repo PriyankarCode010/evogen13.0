@@ -118,7 +118,7 @@ const eventsData = [
     id: "cyber-security",
     name: "Metacortex",
     tagline: "Decode,Defend,Dominate",
-    logo: "../Images/cyber.png",
+    logo: "../Images/events/cyber.png",
     description:
       "Metacortex is basically cyber event which describes about the theft done on the DATA USED. Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. cybersecurity measures are designed to combat threats.",
     rules: [
