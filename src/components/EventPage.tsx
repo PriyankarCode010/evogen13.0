@@ -54,7 +54,7 @@ const EventPage = (props:Props) => {
           <h1 className='text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7 shadoww'>
             {selectedEvent.name}
           </h1>
-          <p className='text-2xl font-semibold text-red-900 shadoww text-center shadoww bg-[#0005] px-2'>
+          <p className='text-2xl font-semibold text-red-800 shadoww text-center shadoww bg-[#0005] px-2'>
             {selectedEvent.tagline}
           </p>
         </div>
