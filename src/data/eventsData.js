@@ -81,7 +81,7 @@ const eventsData = [
     id: "technocrats",
     name: "The Extraordinary Academy",
     tagline: "Ordinary is Overrated.",
-    logo: "./Images/events/techno.png.png",
+    logo: "./Images/events/techno.png",
     bg:"./Images/eventbg/technobg.jpg",
     description:
     "Embark on a journey of intellectual prowess and finesse where extraordinary people meet and unleash their pure potential with all skills required to be a master of all traits. Participants demonstrate their mastery across a spectrum of disciplines, from the cerebral realms of logic and problem-solving to the artistry of performance and expression many much more.",
