@@ -46,15 +46,16 @@ const EventPage = ({ id }: Props) => {
         </button>
       </nav>
       <div className="pb-5 bg-black">
-        <div
-          className="relative flex flex-col justify-center items-center h-screen">
-            <img src={bglogo} alt="" className="object-cover h-screen absolute"/>
+        <div className="relative flex flex-col justify-center items-center h-screen">
+            <img src={bglogo} alt="" className="object-cover h-full w-full absolute"/>
+            <div className="z-40">
           <h1 className="text-center font-extrabold md:text-7xl text-5xl text-red-600 p-7">
             {selectedEvent.name}
           </h1>
           <p className="text-2xl font-semibold text-red-800 text-center bg-[#0005] px-2">
             {selectedEvent.tagline}
           </p>
+          </div>
         </div>
         <hr />
         <div className="flex justify-center p-3">
