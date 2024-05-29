@@ -7,6 +7,7 @@ type Props = {
 };
 
 const About = (props: Props) => {
+  console.log(props.logo)
   return (
     <div className='flex w-full flex-col p-8'>
       <div className="flex w-full flex-col rounded-lg my-5 shadow-lg md:flex-row border-2 border-slate-950 bg-black text-white">
