@@ -8,16 +8,14 @@ type Props = {
 
 const About = (props: Props) => {
   
-  useEffect(() => {
-    console.log("Image URL:", props.logo);
-  }, [props.logo]);
+  const logopath = "."+props.logo;
 
   return (
     <div className='flex w-full flex-col p-8'>
       <div className="flex w-full flex-col rounded-lg my-5 shadow-lg md:flex-row border-2 border-slate-950 bg-black text-white">
         <div className="h-full w-full md:w-[55vw] flex-1 flex justify-center items-center border-r-0 border-b-2 border-slate-900 md:border-r-2 md:border-b-0">
           <img
-            src={props.logo}
+            src={logopath}
             alt="Description Logo"
             className=" h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
             onError={(e) => { e.currentTarget.src = '/path/to/placeholder/image.png'; }}
