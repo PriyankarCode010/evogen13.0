@@ -14,6 +14,9 @@ const About = (props: Props) => {
         <div className="h-full w-full md:w-[55vw] flex-1 flex justify-center items-center border-b-2 border-slate-900 md:border-r-2 md:border-b-0">
           <Image
             src={props.logo}
+            width={100}
+            height={100}
+            alt="logo"
             className="h-80 w-80 rounded-md object-cover md:w-96 md:h-96"
           />
         </div>
