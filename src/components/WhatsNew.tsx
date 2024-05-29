@@ -35,7 +35,7 @@ const WhatsNew = () => {
             {eventsData.map((event, index) => (
               <div key={index} className='flex-1 h-auto min-w-[291px] md:min-w-[430px] border-l-2 border-red-600'>
                 <h1 className='text-3xl px-2'>{event.name}</h1>
-                <p className='p-4'>{event.description}</p>
+                <p className='p-4 text-justify'>{event.description}</p>
               </div>
             ))}
           </div>
