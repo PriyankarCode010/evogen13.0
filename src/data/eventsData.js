@@ -4,6 +4,7 @@ const eventsData = [
     name: "Paradox",
     tagline: "The end is the beginning and the beginning is the end.",
     logo: "../Images/events/coding.png",
+    bg:"../Images/eventbg/codingbg.jpg",
     description:
       "Paradox is the ultimate coding event for students aiming to unlock their true potential and elevate their coding skills. With a diverse range of fun and challenging coding problems to solve, participants will have the opportunity to push their limits and expand their knowledge.",
     rules: [
@@ -45,6 +46,7 @@ const eventsData = [
     name: "Cerebro Voice",
     tagline: "Where communication meets mystery.",
     logo: "../Images/winners.webp",
+    bg:"../Images/eventbg/communicationbg2.jpg",
     description:
     "Dive into 'Upside Voice' where communication becomes an adventure. Engage in themed challenges blending mystery and creativity, from decoding messages to navigating twists in speeches.",
     rules: [
@@ -79,7 +81,8 @@ const eventsData = [
     id: "technocrats",
     name: "The Extraordinary Academy",
     tagline: "Ordinary is Overrated.",
-    logo: "../Images/events/techno.png",
+    logo: "../Images/events/logo3_2.png",
+    bg:"../Images/eventbg/technobg.jpg",
     description:
     "Embark on a journey of intellectual prowess and finesse where extraordinary people meet and unleash their pure potential with all skills required to be a master of all traits. Participants demonstrate their mastery across a spectrum of disciplines, from the cerebral realms of logic and problem-solving to the artistry of performance and expression many much more.",
     rules: [
@@ -119,6 +122,7 @@ const eventsData = [
     name: "Metacortex",
     tagline: "Decode,Defend,Dominate",
     logo: "../Images/events/cyber.png",
+    bg:"../Images/eventbg/cyberbg.jpg",
     description:
       "Metacortex is basically cyber event which describes about the theft done on the DATA USED. Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. cybersecurity measures are designed to combat threats.",
     rules: [
@@ -153,7 +157,8 @@ const eventsData = [
     id: "data-analytics",
     name: "Stellar-Insights",
     tagline: "Charling The unexplored Dimension",
-    logo: "../Images/events/data.png",
+    logo: "../Images/events/data_2.png",
+    bg:"../Images/eventbg/codingbg.jpg",
     description:
       "Dive into the world of DATA ANALYTICS, where data meets innovation, numbers tell stories, and turning data into game changing insights. Here every row counts, every column matters. Get ready to harness the power of data and step into the realm of Data Analytics.",
     rules: [
@@ -193,6 +198,7 @@ const eventsData = [
     name: "Ojingo",
     tagline: "Dare To Play,Dare To Win,Dare To Survive.",
     logo: "../Images/events/game.png",
+    bg:"../Images/eventbg/gamingbg.jpg",
     description:
       "Upgrade your reflexes and explore the world of virtual reality, this event is a perfect opportunity to explore new techniques and to connect with the like minded gamer. Coordination and team work are the key points to achieve the goal. Patience and time management is the main key for winning.",
     rules: [
@@ -223,6 +229,7 @@ const eventsData = [
     name: "Artistic Heist",
     tagline: "Craft Create Conquer.",
     logo: "../Images/events/design.jpg",
+    bg:"../Images/eventbg/designingbg.jpg",
     description:
       "Unleash your creativity and join us for a designing event that will inspire and challenge you.This event is the perfect opportunity to explore new techniques to connect with like-minded individuals. Don't miss this chance to push your boundaries and take your skills to the next level.",
     rules: [

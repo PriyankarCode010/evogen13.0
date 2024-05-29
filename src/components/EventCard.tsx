@@ -7,6 +7,7 @@ type Event = {
   id: string;
   name: string;
   logo: string;
+  bg: string;
   description: string;
 };
 
@@ -21,11 +22,12 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
   return (
     <>
       <div className="flex max-w-[85vw] flex-col items-center rounded-lg my-5 shadow-lg md:flex-row bg-gray-950 text-white">
-        <div className="md:w-[55vw] flex-1 flex justify-center items-center bg-gray-950 border-b-2 border-slate-900 md:border-b-0">
+        <div className="relative md:w-[55vw] flex-1 flex justify-center items-center border-b-2 border-slate-900 md:border-b-0 overflow-hidden">
+          <img src={event.bg} alt="" className='absolute object-cover blur-sm'/>  
           <img
             src={event.logo}
             alt="Laptop"
-            className="h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0"
+            className=" h-80 w-80 p-4 rounded-md md:h-96 md:w-96 md:p-0 z-40"
           />
         </div>
         <div className='flex-[2]'>
