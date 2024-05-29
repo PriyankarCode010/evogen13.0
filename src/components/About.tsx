@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 type Props = {
   description: string;
@@ -11,7 +12,7 @@ const About = (props: Props) => {
     <div className='flex w-full flex-col p-8'>
       <div className="flex w-full flex-col rounded-lg my-5 shadow-lg md:flex-row border-2 border-slate-950 bg-black text-white">
         <div className="h-full w-full md:w-[55vw] flex-1 flex justify-center items-center border-b-2 border-slate-900 md:border-r-2 md:border-b-0">
-          <img
+          <Image
             src={props.logo}
             className="h-80 w-80 rounded-md object-cover md:w-96 md:h-96"
           />
