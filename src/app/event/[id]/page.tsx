@@ -13,7 +13,7 @@ export async function generateStaticParams() {
     { id: "cyber-security" },
     { id: "data-analytics" },
     { id: "gaming" },
-    { id: "happy-hours" }
+    { id: "technocrats" }
   ];
 }
 
