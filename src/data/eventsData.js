@@ -45,7 +45,7 @@ const eventsData = [
     id: "communication",
     name: "Cerebro Voice",
     tagline: "Where communication meets mystery.",
-    logo: "./Images/winners.webp",
+    logo: "./Images/communication.jpg",
     bg:"./Images/eventbg/communicationbg2.jpg",
     description:
     "Dive into 'Upside Voice' where communication becomes an adventure. Engage in themed challenges blending mystery and creativity, from decoding messages to navigating twists in speeches.",
