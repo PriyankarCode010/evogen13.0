@@ -10,11 +10,11 @@ const testimonials = [
   },
   {
     id: "2",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_2.jpg",
   },
   {
     id: "3",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_3.jpg",
   },
   {
     id: "4",
