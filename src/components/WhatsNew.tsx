@@ -1,7 +1,8 @@
 "use client";
 import React, { useRef } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import eventsData from '@/data/eventsData'; // Adjust the import path as needed
+import eventsData from '@/data/eventsData';
+import Link from 'next/link';
 
 const WhatsNew = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -34,7 +35,7 @@ const WhatsNew = () => {
           <div className='flex flex-row py-7'>
             {eventsData.map((event, index) => (
               <div key={index} className='flex-1 h-auto min-w-[291px] md:min-w-[430px] border-l-2 border-red-600'>
-                <h1 className='text-3xl px-2'>{event.name}</h1>
+                <Link href={`/event/${event.id}`}><h1 className='text-3xl px-2'>{event.name}</h1></Link>
                 <p className='p-4 text-justify'>{event.description}</p>
               </div>
             ))}
