@@ -158,7 +158,7 @@ const eventsData = [
     name: "Stellar-Insights",
     tagline: "Charling The unexplored Dimension",
     logo: "./Images/events/data.png",
-    bg:"./Images/eventbg/codingbg.jpg",
+    bg:"./Images/eventbg/databg.jpg",
     description:
       "Dive into the world of DATA ANALYTICS, where data meets innovation, numbers tell stories, and turning data into game changing insights. Here every row counts, every column matters. Get ready to harness the power of data and step into the realm of Data Analytics.",
     rules: [
