@@ -33,7 +33,7 @@ const Events = () => {
     return (
       <div className="h-screen bg-black">
         <div
-          className="h-2/3 bg-[url('/Images/eventbg.png')]"
+          className="h-2/3 bg-[url('/Images/eventbg2.png')] md:bg-[url('/Images/eventbg.png')]"
           style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           <nav className="h-12 absolute m-4 md:m-8 z-40">
