@@ -6,7 +6,7 @@ import fake from "@/Images/fakephotos.webp";
 const testimonials = [
   {
     id: "1",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_1.jpg",
   },
   {
     id: "2",
