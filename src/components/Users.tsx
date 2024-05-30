@@ -30,19 +30,19 @@ const Users = () => {
           <h2 className="text-red-600 text-3xl md:text-5xl font-bold p-4">Who&apos;s watching</h2>
           <div className="flex flex-wrap justify-center gap-4 p-5">
             <div className="flex flex-col items-center">
-              <div onClick={() => { router.replace("event"); }}>
+              <div onClick={() => { router.replace("event"); }} className="cursor-pointer">
                 <img src="./Images/blue.png" alt="blue" width={96} height={96} className="hover:scale-110 duration-300" />
               </div>
               <span className="text-white text-center font-semibold text-lg md:text-xl">me</span>
             </div>
             <div className="flex flex-col items-center">
-              <div onClick={() => { router.replace("event"); }}>
+              <div onClick={() => { router.replace("event"); }} className="cursor-pointer">
                 <img src="./Images/red.png" alt="red" width={96} height={96} className="hover:scale-110 duration-300" />
               </div>
               <span className="text-white text-center font-semibold text-lg md:text-xl">myself</span>
             </div>
             <div className="flex flex-col items-center">
-              <div onClick={() => { router.replace("event"); }}>
+              <div onClick={() => { router.replace("event"); }} className="cursor-pointer">
                 <img src="./Images/yellow.png" alt="yellow" width={96} height={96} className="hover:scale-110 duration-300" />
               </div>
               <span className="text-white text-center font-semibold text-lg md:text-xl">I</span>

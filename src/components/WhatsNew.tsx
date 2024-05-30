@@ -35,7 +35,7 @@ const WhatsNew = () => {
           <div className='flex flex-row py-7'>
             {eventsData.map((event, index) => (
               <div key={index} className='flex-1 h-auto min-w-[291px] md:min-w-[430px] border-l-2 border-red-600'>
-                <Link href={`/event/${event.id}`}><h1 className='text-3xl px-2'>{event.name}</h1></Link>
+                <Link href={`/event/${event.id}`}><h1 className='text-3xl px-2 hover:underline underline-offset-1'>{event.name}</h1></Link>
                 <p className='p-4 text-justify'>{event.description}</p>
               </div>
             ))}
