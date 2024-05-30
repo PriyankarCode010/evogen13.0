@@ -33,7 +33,7 @@ const Events = () => {
     return (
       <div className="h-screen bg-black">
         <div
-          className="h-2/3 bg-[url('https://imgs.search.brave.com/VxgE_eNUyrua6soVH03hf9aYOfqnhDsEsERlE_w188w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvbW92aWUtOXB2/bWR0dno0Y2IweGwz/Ny5qcGc')]"
+          className="h-2/3 bg-[url('/Images/eventbg.jpg')]"
           style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           <nav className="h-12 absolute m-4 md:m-8 z-40">
