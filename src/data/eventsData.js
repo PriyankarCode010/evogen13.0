@@ -6,7 +6,7 @@ const eventsData = [
     logo: "./Images/events/coding.png",
     bg:"./Images/eventbg/codingbg.jpg",
     description:
-      "Paradox is the ultimate coding event for students aiming to unlock their true potential and elevate their coding skills. With a diverse range of fun and challenging coding problems to solve, participants will have the opportunity to push their limits and expand their knowledge.",
+      "Paradox is the ultimate CODING EVENT for students aiming to unlock their true potential and elevate their coding skills. With a diverse range of fun and challenging coding problems to solve, participants will have the opportunity to push their limits and expand their knowledge in coding skills.",
     rules: [
       "Number of participants is 02.",
       "Skills required - problem solving, decision making, C, Java, Python, HTML CSS, JavaScript",
@@ -21,21 +21,18 @@ const eventsData = [
       },
       {
         name: "Priyankar Haldar",
-        phno: 8277067587,
+        phno: 6362805484,
         photo: "/Photos/priyankar.jpg",
       },
     ],
     faculty: [{
       name: "Prof.Vaibhav Ambekar",
-      phno: 8073579756,
       photo: "/Photos/Vaibhav.jpg",
     },{
       name: "Prof.Shruti Kanchungar",
-      phno: 8073579756,
       photo: "/Photos/Shruti.jpg",
     },{
-      name: "Mrs. Radhika",
-      phno: 8073579756,
+      name: "Mrs Meghana Joshi",
       photo: "/Photos/radhika.jpg",
     },
 
@@ -48,73 +45,65 @@ const eventsData = [
     logo: "./Images/events/communication.jpg",
     bg:"./Images/eventbg/communicationbg2.jpg",
     description:
-    "Dive into 'Upside Voice' where communication becomes an adventure. Engage in themed challenges blending mystery and creativity, from decoding messages to navigating twists in speeches.",
+    "Dive into 'Cerebro Voice' the ultimate COMMUNICATION adventure. Engage in themed challenges that blend mystery and creativity from decoding messages to navigating unexpected twists in speeches.",
     rules: [
       "Number of participants is 01.",
-      "Skills required - wordplay, debating, spoken english, good vocabulary, presentation, roleplay.",
+      "Skills required - Wordplay, debating, fluent spoken english, strong vocabulary, presentation skills and role-playing abilities.",
       "Requirements - 01 laptop, pendrive smartphones.",
     ],
     heads: [
       {
         name: "Aparna Shekhar",
-        phno: 7057561603,
+        phno: 8746970092,
         photo: "/Photos/aparna.jpg",
       },
       {
         name: "Aditya Kalagounda",
-        phno: 7337741473,
+        phno: 7829832558,
         photo: "/Photos/aditya.jpg",
       },
     ],
     faculty: [{
       name: "Dr. Chidambar Inamdar",
-      phno: 9620900846,
       photo: "/Photos/chidambar.jpg",
     },
     {
       name: "Prof. Karuna Deshpande",
-      phno: 8747015516,
       photo: "/Photos/karuna.jpg",
     },]
   },
   {
     id: "technocrats",
-    name: "The Extraordinary Academy",
+    name: "Academy Aces",
     tagline: "Ordinary is Overrated.",
     logo: "./Images/events/techno.png",
     bg:"./Images/eventbg/technobg.jpg",
     description:
-    "Embark on a journey of intellectual prowess and finesse where extraordinary people meet and unleash their pure potential with all skills required to be a master of all traits. Participants demonstrate their mastery across a spectrum of disciplines, from the cerebral realms of logic and problem-solving to the artistry of performance and expression many much more.",
+    "Embark on a journey of intellectual prowess and finesse where a TECHNOCRAT meets and unleashes his/her pure potential with all skills required to be a master of all traits. Participant demonstrates his/her mastery across a spectrum of discipline from the cerebral realms of logic and problem solving techniques to the artistry of performance and expression.",
     rules: [
       "Number of participants is 01.",
-      "Skills required - Creativity, Logo and Poster Designing, Basics of HTML/CSS, Presentation, Basic Linux Knowledge.",
+      "Skills required - Creativity, Designing Skills, Basics of HTML/CSS, DSA, Presentation and Communication Skills, Basic Linux Knowledge.",
       "Requirements - Laptop (Photoshop, VS Code Pre Installed), Smartphone, Pen drive.",
     ],
     heads: [
       {
         name: "Ritesh Navalgund",
-        phno: 9113061708,
+        phno: 7057561603,
         photo: "/Photos/ritesh.jpg",
       },
       {
         name: "Akshata Patil",
-        phno: 8050496719,
+        phno: 8971264162,
         photo: "/Photos/akshata.jpg",
       },
     ],
     faculty: [{
       name: "Prof.Supriya Balekundri",
-      phno: 9900619694,
       photo: "/Photos/supriya.jpg",
     },{
       name: "Prof. Vaishali Kulkarni",
-      phno: 9900619694,
       photo: "/Photos/vaishali.jpg",
-    },{
-      name: "Ms. Aniketa",
-      phno: 9900619694,
-      photo: "/Photos/aniketa.jpg",
-    },
+    }
   ]
   },
   {
@@ -124,11 +113,11 @@ const eventsData = [
     logo: "./Images/events/cyber.png",
     bg:"./Images/eventbg/cyberbg.jpg",
     description:
-      "Metacortex is basically cyber event which describes about the theft done on the DATA USED. Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. cybersecurity measures are designed to combat threats.",
+      "Metacortex denotes a cyber event centered on data theft. CYBER SECURITY is the practice of shielding critical systems and sensitive data from digital attacks. Cyber security measures are devised to tackle potential threats.",
     rules: [
       "Number of participants is 02.",
-      "Skills required - Basic Linux commands, services,basics knowledge about web.",
-      "Requirements - 1 Laptop.",
+      "Skills required - Linux commands, services, basics knowledge about web, Phishing, Wireshark.",
+      "Requirements - 1 Laptop with Windows and Kali Linux OS, VS Code.",
     ],
     heads: [
       {
@@ -138,17 +127,15 @@ const eventsData = [
       },
       {
         name: "Tejasvi Bhadavankar",
-        phno: 7892288512,
+        phno: 8217491109,
         photo: "/Photos/tejasvi.jpg",
       },
     ],
     faculty: [{
       name: "Prof. Govind Huligol",
-      phno: 9986296434,
       photo: "/Photos/govind.jpg",
     },{
-      name: "Mrs.Pooja",
-      phno: 9986296434,
+      name: "Mrs.Pooja Rashinkar",
       photo: "/Photos/pooja.jpg",
     },
   ]
@@ -160,36 +147,33 @@ const eventsData = [
     logo: "./Images/events/data.png",
     bg:"./Images/eventbg/databg.jpg",
     description:
-      "Dive into the world of DATA ANALYTICS, where data meets innovation, numbers tell stories, and turning data into game changing insights. Here every row counts, every column matters. Get ready to harness the power of data and step into the realm of Data Analytics.",
+      "Dive into the world of DATA ANALYTICS where data meets innovation, numbers tell stories, and turning data into game changing insights. Here every row counts, every column matters. Get ready to harness the power of data and step into the realm of Data Analytics.",
     rules: [
       "Number of participants is 02.",
-      "Skills required - Oracle, Power BI, Tableau, Excel, SPSS.",
+      "Skills required - Oracle, Power BI, Tableau, Excel, SPSS, Looker and Orange.",
       "Requirements - 1 Laptop, Pendrive.",
     ],
     heads: [
       {
         name: "Mandar Kanbargi",
-        phno: 8746970092,
+        phno: 8147581457,
         photo: "/Photos/mandar.jpg",
       },
       {
         name: "Sakshi Patankar",
-        phno: 7760882407,
+        phno: 8073839867,
         photo: "/Photos/sakshi.jpg",
       },
     ],
     faculty: [{
       name: "Prof. Shruti Kulkarni",
-      phno: 8792242249,
       photo: "/Photos/shruti.jpg",
     },
     {
       name: "Prof. Jyoti Patil",
-      phno: 8884988033,
       photo: "/Photos/jyoti.jpeg",
     },{
-      name:"Mrs. Shilpa",
-      phno: 8884988033,
+      name:"Mrs. Shilpa Sarnaik",
       photo: "/Photos/Shilpa.jpeg",
     }]
   },
@@ -200,10 +184,10 @@ const eventsData = [
     logo: "./Images/events/game.png",
     bg:"./Images/eventbg/gamingbg.jpg",
     description:
-      "Upgrade your reflexes and explore the world of virtual reality, this event is a perfect opportunity to explore new techniques and to connect with the like minded gamer. Coordination and team work are the key points to achieve the goal. Patience and time management is the main key for winning.",
+      "Upgrade your reflexes and explore the world of virtual reality. Immerse yourself in the ultimate virtual reality experience! This GAMING EVENT is your chance to showcase your individual skills and strategies. Perfect your techniques, dominate the competition, and connect with fellow gaming enthusiasts. Precision, reflexes, and time management are your keys to victory.",
     rules: [
       "Number of participants is 01",
-      "Skills required - Basic gaming skills with planning, strategy,multitasking and basic coding skills.",
+      "Skills required - Basic gaming skills with planning, strategy, multitasking and basic coding skills.",
       "Requirements - Each team must carry at least one laptop (with mouse, keyboard, charger, earphones) and mobile phones with them.",
     ],
     heads: [
@@ -219,8 +203,7 @@ const eventsData = [
       },
     ],
     faculty: [{
-      name: "Prof. Abhishek",
-      phno: 9742426470,
+      name: "Mr. Goudappa Goudanavar ",
       photo: "/Photos/abhishek.jpg",
     },]
   },
@@ -231,31 +214,29 @@ const eventsData = [
     logo: "./Images/events/design.jpg",
     bg:"./Images/eventbg/designingbg.jpg",
     description:
-      "Unleash your creativity and join us for a designing event that will inspire and challenge you.This event is the perfect opportunity to explore new techniques to connect with like-minded individuals. Don't miss this chance to push your boundaries and take your skills to the next level.",
+      "Join us for 'Artistic Heist' a premier DESIGNING EVENT aimed at sparking creativity and challenging your artistic boundaries. This event offers a fantastic opportunity to explore and develop new design techniques while networking with fellow creatives. Don't miss out on this chance to elevate your skills and push your creative limits to new heights.",
     rules: [
       "Number of participants is 02",
-      "Skills required - Basic graphic designing knowledge and time management skills arts.",
-      "Requirements - 2 Laptop, Adobe illustrator, Photoshop,premiere pro,After effects, Krita, Adobe XD ,Figma ,Blender and basics of HTML and CSS.",
+      "Skills required - Basic graphic designing knowledge and time management skills.",
+      "Requirements - 2 Laptops with Pre-Installed Adobe illustrator, Photoshop, Premiere Pro, After effects, Krita, Adobe XD, Figma, Blender and basics of HTML & CSS.",
     ],
     heads: [
       {
         name: "Prathamesh Patil",
-        phno: 9902275157,
+        phno: 9113061708,
         photo: "/Photos/prathamesh.jpg",
       },
       {
         name: "Samarth mutagekar",
-        phno: 9986535605,
+        phno: 8050496719,
         photo: "/Photos/samarth.jpg",
       },
     ],
     faculty:[{
       name: "Prof. Rucha Bapat",
-      phno: 7846058520,
       photo: "/Photos/rucha.jpg",
     },{
       name: "Ms Sneha",
-      phno: 7846058520,
       photo: "/Photos/sneha.jpg",
     },
   ]
