@@ -53,7 +53,7 @@ const main=[
       id:"dev",
       ppl:[
         {
-          name:"Priyankar",
+          name:"Priyankar Haldar",
           photo:"./Images/winners.webp",
           role:"developer",
         }
