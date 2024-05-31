@@ -11,7 +11,7 @@ const Nav = (props: Props) => {
       </div>
     </div>
     <div className='flex-grow'>
-      <span className='text-xs md:text-xl'>The Karnatak Law Society&apos;s</span>
+      <span className='text-xs md:text-xl'>The Karnataka Law Society&apos;s</span>
         <br />
       <span className='font-semibold text-xs md:text-2xl'>Gogte College of Commerce</span>
         <br />
