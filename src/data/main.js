@@ -1,6 +1,6 @@
 const main=[
     {
-      id:"mainorg",
+      id:"main",
       ppl:[
         {
           name:"Dr. Asmita Deshpande",
