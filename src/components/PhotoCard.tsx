@@ -38,7 +38,15 @@ const testimonials = [
   },
   {
     id: "9",
-    link :"./Images/grp/main.jpg",
+    link :"./Images/grp/grp_9.jpg",
+  },
+  {
+    id: "10",
+    link :"./Images/grp/grp_10.jpg",
+  },
+  {
+    id: "11",
+    link :"./Images/grp/grp_11.jpg",
   },
 ];
 
