@@ -10,13 +10,13 @@ type Props = {
 
 const OphotoCard = (props: Props) => {
 
-  console.log(props.photo);
+  const hPhotos = "."+props.photo;
   return (
     <>
       <Fade direction='left'>
         <div className="relative h-[400px] w-[300px] rounded-lg shadow-xl shadow-[#0008]">
           <img
-            src={props.photo}
+            src={hPhotos}
             alt="Photo"
             className="z-0 h-full w-full rounded-md object-cover"
           />
