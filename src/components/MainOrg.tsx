@@ -12,7 +12,7 @@ const MainOrg = (props: Props) => {
   const dev = data.find(event => event.id === "dev");
   const [show, setShow] = useState(false);
 
-  if (!main || !dev) {
+  if (!main || !eventorg || !studorg || !dev) {
     return <div>Data not found</div>;
   }
 
