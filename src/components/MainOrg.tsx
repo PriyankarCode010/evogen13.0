@@ -12,10 +12,6 @@ const MainOrg = (props: Props) => {
   const dev = data.find(event => event.id === "dev");
   const [show, setShow] = useState(false);
 
-  if (!main || !dev) {
-    return <div>Data not found</div>;
-  }
-
   return (
     <div className={`text-white pt-10 flex flex-col justify-center items-center border-b-2 border-red-800 ${show ? "bg-white" : "bg-black"} `}>
       {show ? (
