@@ -1,6 +1,5 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
-import fake from "@/Images/fakephotos.webp";
 
 
 const testimonials = [
