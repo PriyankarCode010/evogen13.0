@@ -6,7 +6,9 @@ import data from '@/data/main.js';
 type Props = {};
 
 const MainOrg = (props: Props) => {
-  const main = data.find(event => event.id === "main");
+  const mainorg = data.find(event => event.id === "mainorg")
+  const eventorg = data.find(event => event.id === "eventorg")
+  const studorg = data.find(event => event.id === "studorg");
   const dev = data.find(event => event.id === "dev");
   const [show, setShow] = useState(false);
 
@@ -18,25 +20,34 @@ const MainOrg = (props: Props) => {
     <div className={`text-white pt-10 flex flex-col justify-center items-center border-b-2 border-red-800 ${show ? "bg-white" : "bg-black"} `}>
       {show ? (
         <div className="flex flex-col gap-14 justify-center items-center bg-white">
-          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700">
-            Co-ordinator
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700 uppercase">
+            Organizing Committee
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
-            {main.ppl.map((fac, index) => (
+            {mainorg.ppl.map((fac, index) => (
               <MphotoCard key={index} name={fac.name} role={fac.role} photo={fac.photo} />
             ))}
           </div>
 
-          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700">
-            College Representative
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700 uppercase">
+            Event Co-ordinators
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
-            {main.ppl.map((fac, index) => (
+            {eventorg.ppl.map((fac, index) => (
               <MphotoCard key={index} name={fac.name} role={fac.role} photo={fac.photo} />
             ))}
           </div>
 
-          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700">
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700 uppercase">
+            Student Co-ordinators
+          </h2>
+          <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
+            {studorg.ppl.map((fac, index) => (
+              <MphotoCard key={index} name={fac.name} role={fac.role} photo={fac.photo} />
+            ))}
+          </div>
+
+          <h2 className="text-4xl md:text-7xl font-bold text-center textShwd text-red-700 uppercase">
             Developer
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">

@@ -1,29 +1,59 @@
 const main=[
-  {
-      id:"main",
+    {
+      id:"mainorg",
       ppl:[
         {
-          name:"abc",
+          name:"Dr. Asmita Deshpande",
           photo:"./Images/winners.webp",
-          role:"principle",
+          role:"BCA Co-ordinator",
         },
         {
-          name:"abc",
+          name:"Dr. Venugopal S. Jalihal",
           photo:"./Images/winners.webp",
-          role:"principle",
+          role:"Principal",
         },
         {
-          name:"abc",
+          name:"Shri. A. K. Tagare",
           photo:"./Images/winners.webp",
-          role:"principle",
+          role:"Chairman, GC on GCC",
         }
+      ]
+    },
+    {
+      id:"eventorg",
+      ppl:[
+        {
+          name:"Prof. Prakash Deshpande",
+          photo:"./Images/winners.webp",
+          role:"",
+        },
+        {
+          name:"Prof Vaishali Shanbhag",
+          photo:"./Images/winners.webp",
+          role:"",
+        }
+      ]
+    },
+    {
+      id:"studorg",
+      ppl:[
+        {
+          name:"Gagan Naik",
+          photo:"./Images/winners.webp",
+          role:"General Secretary",
+        },
+        {
+          name:"Revathi Shresthi",
+          photo:"./Images/winners.webp",
+          role:"Ladies Secretary",
+        },
       ]
     },
     {
       id:"dev",
       ppl:[
         {
-          name:"abc",
+          name:"Priyankar",
           photo:"./Images/winners.webp",
           role:"developer",
         }
