@@ -18,19 +18,27 @@ const testimonials = [
   },
   {
     id: "4",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_4.jpg",
   },
   {
     id: "5",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_5.jpg",
   },
   {
     id: "6",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_6.jpg",
   },
   {
     id: "7",
-    link :"./Images/fakephotos.webp",
+    link :"./Images/grp/grp_7.jpg",
+  },
+  {
+    id: "8",
+    link :"./Images/grp/grp_8.jpg",
+  },
+  {
+    id: "9",
+    link :"./Images/grp/main.jpg",
   },
 ];
 
