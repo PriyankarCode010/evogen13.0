@@ -4,7 +4,7 @@ import OphotoCard from "./OphotoCard";
 
 type Person = {
   name: string;
-  phno: number; 
+  phno: string; 
   photo: string;
 };
 
