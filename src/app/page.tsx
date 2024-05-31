@@ -11,7 +11,7 @@ export default function Home() {
 
   useEffect(() => {
     setTimeout(() => {
-      window.scrollTo({ top: 110, behavior: 'smooth' });
+      window.scrollTo({ top: 140, behavior: 'smooth' });
     }, 2550);
   }, []);
 
