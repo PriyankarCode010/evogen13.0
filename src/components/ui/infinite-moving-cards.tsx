@@ -92,7 +92,7 @@ export const InfiniteMovingCards = ({
             key={item.id}
           >
             <blockquote>
-              <img src={item.link} alt="" className="rounded-lg filter grayscale object-cover" width={800} height={200}/>
+              <img src={item.link} alt="" className="rounded-lg grayscale-[40%] object-cover" width={800} height={200}/>
             </blockquote>
           </li>
         ))}
