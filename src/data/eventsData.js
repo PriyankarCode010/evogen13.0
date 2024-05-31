@@ -17,7 +17,7 @@ const eventsData = [
       {
         name: "Prathamesh Sirdesai",
         phno: "7022112496",
-        photo: "/Photos/sirdesai.jpg",
+        photo: "./Images/heads/prathamesh.jpg",
       },
       {
         name: "Priyankar Haldar",
@@ -99,7 +99,7 @@ const eventsData = [
       {
         name: "Akshata Patil",
         phno: "8971264162",
-        photo: "/Photos/akshata.jpg",
+        photo: "./Images/heads/akshata.jpg",
       },
     ],
     faculty: [{
@@ -166,7 +166,7 @@ const eventsData = [
       {
         name: "Mandar Kanbargi",
         phno: "8147581457",
-        photo: "/Photos/mandar.jpg",
+        photo: "./Images/heads/mandar.jpg",
       },
       {
         name: "Sakshi Patankar",
@@ -237,7 +237,7 @@ const eventsData = [
       {
         name: "Prathamesh Patil",
         phno: "9113061708",
-        photo: "/Photos/prathamesh.jpg",
+        photo: "./Images/heads/prathameshpatil.jpg",
       },
       {
         name: "Samarth mutagekar",
