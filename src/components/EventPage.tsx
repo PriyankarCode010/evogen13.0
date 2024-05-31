@@ -23,7 +23,7 @@ const EventPage = ({ id }: Props) => {
     }
     setTimeout(() => {
       window.scrollTo({ top: 200, behavior: 'smooth' });
-    }, 2550);
+    }, 1000);
   }, [selectedEvent, router]);
 
   if (!selectedEvent) {
