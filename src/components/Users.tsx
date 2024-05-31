@@ -33,19 +33,19 @@ const Users = () => {
               <div onClick={() => { router.replace("event"); }} className="cursor-pointer">
                 <img src="./Images/blue.png" alt="blue" width={96} height={96} className="hover:scale-110 duration-300" />
               </div>
-              <span className="text-white text-center font-semibold text-lg md:text-xl">me</span>
+              <span className="text-white text-center font-semibold text-lg md:text-xl">User 1</span>
             </div>
             <div className="flex flex-col items-center">
               <div onClick={() => { router.replace("event"); }} className="cursor-pointer">
                 <img src="./Images/red.png" alt="red" width={96} height={96} className="hover:scale-110 duration-300" />
               </div>
-              <span className="text-white text-center font-semibold text-lg md:text-xl">myself</span>
+              <span className="text-white text-center font-semibold text-lg md:text-xl">User 2</span>
             </div>
             <div className="flex flex-col items-center">
               <div onClick={() => { router.replace("event"); }} className="cursor-pointer">
                 <img src="./Images/yellow.png" alt="yellow" width={96} height={96} className="hover:scale-110 duration-300" />
               </div>
-              <span className="text-white text-center font-semibold text-lg md:text-xl">I</span>
+              <span className="text-white text-center font-semibold text-lg md:text-xl">User 3</span>
             </div>
           </div>
         </div>
