@@ -63,7 +63,7 @@ const eventsData = [
       {
         name: "Aditya Kalagounda",
         phno: "7829832558",
-        photo: "/Photos/aditya.jpg",
+        photo: "./Images/heads/aditya.jpg",
       },
     ],
     faculty: [{
