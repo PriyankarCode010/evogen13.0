@@ -58,7 +58,7 @@ const eventsData = [
       {
         name: "Aparna Shekhar",
         phno: "8746970092",
-        photo: "/Photos/aparna.jpg",
+        photo: "/Photos/aparna_2_2.jpg",
       },
       {
         name: "Aditya Kalagounda",
