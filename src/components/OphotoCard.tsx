@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal'
 
 type Props = {
   name : string
-  phno : number
+  phno : string
   photo : string 
 }
 

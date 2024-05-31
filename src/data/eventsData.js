@@ -16,12 +16,12 @@ const eventsData = [
     heads: [
       {
         name: "Prathamesh Sirdesai",
-        phno: 7022112496,
+        phno: "7022112496",
         photo: "/Photos/sirdesai.jpg",
       },
       {
         name: "Priyankar Haldar",
-        phno: 6362805484,
+        phno: "6362805484",
         photo: "/Photos/priyankar.jpg",
       },
     ],
@@ -57,17 +57,18 @@ const eventsData = [
     heads: [
       {
         name: "Aparna Shekhar",
-        phno: 8746970092,
+        phno: "8746970092",
         photo: "/Photos/aparna.jpg",
       },
       {
         name: "Aditya Kalagounda",
-        phno: 7829832558,
+        phno: "7829832558",
         photo: "/Photos/aditya.jpg",
       },
     ],
     faculty: [{
       name: "Dr. Chidambar Inamdar",
+      phno: "",
       photo: "/Photos/chidambar.jpg",
     },
     {
@@ -92,12 +93,12 @@ const eventsData = [
     heads: [
       {
         name: "Ritesh Navalgund",
-        phno: 7057561603,
+        phno: "7057561603",
         photo: "/Photos/ritesh.jpg",
       },
       {
         name: "Akshata Patil",
-        phno: 8971264162,
+        phno: "8971264162",
         photo: "/Photos/akshata.jpg",
       },
     ],
@@ -128,12 +129,12 @@ const eventsData = [
     heads: [
       {
         name: "Amar Badiger",
-        phno: 8861142545,
+        phno: "8861142545",
         photo: "/Photos/amar.jpg",
       },
       {
         name: "Tejasvi Bhadavankar",
-        phno: 8217491109,
+        phno: "8217491109",
         photo: "/Photos/tejasvi.jpg",
       },
     ],
@@ -164,17 +165,18 @@ const eventsData = [
     heads: [
       {
         name: "Mandar Kanbargi",
-        phno: 8147581457,
+        phno: "8147581457",
         photo: "/Photos/mandar.jpg",
       },
       {
         name: "Sakshi Patankar",
-        phno: 8073839867,
+        phno: "8073839867",
         photo: "/Photos/sakshi.jpg",
       },
     ],
     faculty: [{
       name: "Prof. Shruti Kulkarni",
+      phno: "",
       photo: "/Photos/shruti.jpg",
     },
     {
@@ -203,12 +205,12 @@ const eventsData = [
     heads: [
       {
         name: "Nikhil Madali",
-        phno: 7760337984,
+        phno: "7760337984",
         photo: "/Photos/nikhil.jpg",
       },
       {
         name: "Aditya Reddy",
-        phno: 9535997978,
+        phno: "9535997978",
         photo: "/Photos/aditya.jpg",
       },
     ],
@@ -234,12 +236,12 @@ const eventsData = [
     heads: [
       {
         name: "Prathamesh Patil",
-        phno: 9113061708,
+        phno: "9113061708",
         photo: "/Photos/prathamesh.jpg",
       },
       {
         name: "Samarth mutagekar",
-        phno: 8050496719,
+        phno: "8050496719",
         photo: "/Photos/samarth.jpg",
       },
     ],
