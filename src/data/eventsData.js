@@ -27,12 +27,15 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof.Vaibhav Ambekar",
+      phno: "",
       photo: "/Photos/Vaibhav.jpg",
     },{
       name: "Prof.Shruti Kanchungar",
+      phno: "",
       photo: "/Photos/Shruti.jpg",
     },{
       name: "Mrs Meghana Joshi",
+      phno: "",
       photo: "/Photos/radhika.jpg",
     },
 
@@ -69,6 +72,7 @@ const eventsData = [
     },
     {
       name: "Prof. Karuna Deshpande",
+      phno: "",
       photo: "/Photos/karuna.jpg",
     },]
   },
@@ -99,9 +103,11 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof.Supriya Balekundri",
+      phno: "",
       photo: "/Photos/supriya.jpg",
     },{
       name: "Prof. Vaishali Kulkarni",
+      phno: "",
       photo: "/Photos/vaishali.jpg",
     }
   ]
@@ -133,9 +139,11 @@ const eventsData = [
     ],
     faculty: [{
       name: "Prof. Govind Huligol",
+      phno: "",
       photo: "/Photos/govind.jpg",
     },{
       name: "Mrs.Pooja Rashinkar",
+      phno: "",
       photo: "/Photos/pooja.jpg",
     },
   ]
@@ -171,9 +179,11 @@ const eventsData = [
     },
     {
       name: "Prof. Jyoti Patil",
+      phno: "",
       photo: "/Photos/jyoti.jpeg",
     },{
       name:"Mrs. Shilpa Sarnaik",
+      phno: "",
       photo: "/Photos/Shilpa.jpeg",
     }]
   },
@@ -204,6 +214,7 @@ const eventsData = [
     ],
     faculty: [{
       name: "Mr. Goudappa Goudanavar ",
+      phno: "",
       photo: "/Photos/abhishek.jpg",
     },]
   },
@@ -234,9 +245,11 @@ const eventsData = [
     ],
     faculty:[{
       name: "Prof. Rucha Bapat",
+      phno: "",
       photo: "/Photos/rucha.jpg",
     },{
       name: "Ms Sneha",
+      phno: "",
       photo: "/Photos/sneha.jpg",
     },
   ]
