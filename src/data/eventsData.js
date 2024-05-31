@@ -58,7 +58,7 @@ const eventsData = [
       {
         name: "Aparna Shekhar",
         phno: "8746970092",
-        photo: "./Images/heads/aparna_2_2.jpg",
+        photo: "./Images/heads/aparna.jpg",
       },
       {
         name: "Aditya Kalagounda",
@@ -171,7 +171,7 @@ const eventsData = [
       {
         name: "Sakshi Patankar",
         phno: "8073839867",
-        photo: "/Photos/sakshi.jpg",
+        photo: "./Images/heads/sakshi.jpg",
       },
     ],
     faculty: [{
