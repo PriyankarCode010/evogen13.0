@@ -10,7 +10,9 @@ import WhatsNew from "@/components/WhatsNew";
 export default function Home() {
 
   useEffect(() => {
-    window.scrollTo({ top: 10, behavior: 'smooth' });
+    setTimeout(() => {
+      window.scrollTo({ top: 60, behavior: 'smooth' });
+    }, 2000);
   }, []);
 
   return (
