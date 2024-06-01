@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fade } from 'react-awesome-reveal';
 import { FaInstagram } from "react-icons/fa6";
+import Link from 'next/link';
 
 
 type Props = {
