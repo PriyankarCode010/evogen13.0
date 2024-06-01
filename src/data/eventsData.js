@@ -28,15 +28,15 @@ const eventsData = [
     faculty: [{
       name: "Prof.Vaibhav Ambekar",
       phno: "",
-      photo: "/Photos/Vaibhav.jpg",
+      photo: "./Images/heads/Vaibhav.jpg",
     },{
       name: "Prof.Shruti Kanchungar",
       phno: "",
-      photo: "/Photos/Shruti.jpg",
+      photo: "./Images/heads/Vaibhav.jpg",
     },{
       name: "Mrs Meghana Joshi",
       phno: "",
-      photo: "/Photos/radhika.jpg",
+      photo: "./Images/heads/Vaibhav.jpg",
     },
 
   ]
@@ -69,12 +69,12 @@ const eventsData = [
     faculty: [{
       name: "Dr. Chidambar Inamdar",
       phno: "",
-      photo: "/Photos/chidambar.jpg",
+      photo: "./Images/heads/Chidambar.jpg",
     },
     {
       name: "Prof. Karuna Deshpande",
       phno: "",
-      photo: "/Photos/karuna.jpg",
+      photo: "./Images/heads/Karuna.jpg",
     },]
   },
   {
@@ -105,11 +105,11 @@ const eventsData = [
     faculty: [{
       name: "Prof.Supriya Balekundri",
       phno: "",
-      photo: "/Photos/supriya.jpg",
+      photo: "./Images/heads/supriya.jpg",
     },{
       name: "Prof. Vaishali Kulkarni",
       phno: "",
-      photo: "/Photos/vaishali.jpg",
+      photo: "./Images/heads/vaishali.jpg",
     }
   ]
   },
@@ -141,11 +141,11 @@ const eventsData = [
     faculty: [{
       name: "Prof. Govind Huligol",
       phno: "",
-      photo: "/Photos/govind.jpg",
+      photo: "./Images/teachers/Govind.jpg",
     },{
       name: "Mrs.Pooja Rashinkar",
       phno: "",
-      photo: "/Photos/pooja.jpg",
+      photo: "./Images/teachers/Govind.jpg",
     },
   ]
   },
@@ -182,11 +182,11 @@ const eventsData = [
     {
       name: "Prof. Jyoti Patil",
       phno: "",
-      photo: "/Photos/jyoti.jpeg",
+      photo: "./Images/teachers/Jyoti.jpg",
     },{
       name:"Mrs. Shilpa Sarnaik",
       phno: "",
-      photo: "/Photos/Shilpa.jpeg",
+      photo: "./Images/teachers/shilpa.jpg",
     }]
   },
   {
@@ -217,7 +217,7 @@ const eventsData = [
     faculty: [{
       name: "Mr. Goudappa Goudanavar ",
       phno: "",
-      photo: "/Photos/abhishek.jpg",
+      photo: "./Images/teachers/abhishek.jpg",
     },]
   },
   {
@@ -248,11 +248,11 @@ const eventsData = [
     faculty:[{
       name: "Prof. Rucha Bapat",
       phno: "",
-      photo: "/Photos/rucha.jpg",
+      photo: "./Images/teachers/Rucha.jpg",
     },{
       name: "Ms Sneha",
       phno: "",
-      photo: "/Photos/sneha.jpg",
+      photo: "./Images/teachers/Jyoti.jpg",
     },
   ]
   },
