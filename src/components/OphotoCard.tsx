@@ -29,7 +29,7 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
-          { props.ig ? <div className="absolute bottom-4 right-4"><FaInstagram className="text-white text-2xl hover:text-red"/></div> : <></> }
+          { props.ig ? <Link href={props.ig}><div className="absolute bottom-4 right-4"><FaInstagram className="text-white text-2xl hover:text-red"/></div></Link> : <></> }
         </div>
       </Fade>
     </>
