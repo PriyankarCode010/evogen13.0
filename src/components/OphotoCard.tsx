@@ -3,17 +3,16 @@ import { Fade } from 'react-awesome-reveal';
 import { FaInstagram } from "react-icons/fa6";
 import Link from 'next/link';
 
-
 type Props = {
-  name : string
-  phno : string
-  photo : string 
-  ig : string
+  name: string
+  phno: string
+  photo: string 
+  ig: string
 }
 
 const OphotoCard = (props: Props) => {
+  const hPhotos = "." + props.photo;
 
-  const hPhotos = "."+props.photo;
   return (
     <>
       <Fade direction='left'>
@@ -30,11 +29,18 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
-          { props.ig ? <Link href={props.ig}><div className="absolute bottom-4 right-4"><FaInstagram className="text-white text-2xl hover:text-red"/></div></Link> : <></> }
+          {props.ig ? (
+            <div 
+              className="absolute bottom-4 right-4 cursor-pointer" 
+              onClick={() => window.open(props.ig, '_blank', 'noopener,noreferrer')}
+            >
+              <FaInstagram className="text-white text-2xl hover:text-red" />
+            </div>
+          ) : null}
         </div>
       </Fade>
     </>
-  )
+  );
 }
 
-export default OphotoCard
+export default OphotoCard;
