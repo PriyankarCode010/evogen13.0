@@ -16,25 +16,30 @@ const eventsData = [
     heads: [
       {
         name: "Prathamesh Sirdesai",
+        ig:"",
         phno: "7022112496",
         photo: "./Images/heads/prathamesh.jpg",
       },
       {
         name: "Priyankar Haldar",
+        ig:"https://www.instagram.com/arsonist_010_",
         phno: "6362805484",
         photo: "/Photos/priyankar.jpg",
       },
     ],
     faculty: [{
       name: "Prof.Vaibhav Ambekar",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Vaibhav.jpg",
     },{
       name: "Prof.Shruti Kanchungar",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Vaibhav.jpg",
     },{
       name: "Mrs Meghana Joshi",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Vaibhav.jpg",
     },
@@ -57,22 +62,26 @@ const eventsData = [
     heads: [
       {
         name: "Aparna Shekhar",
+        ig:"",
         phno: "8746970092",
         photo: "./Images/heads/aparna.jpg",
       },
       {
         name: "Aditya Kalagounda",
+        ig:"",
         phno: "7829832558",
         photo: "./Images/heads/aditya.jpg",
       },
     ],
     faculty: [{
       name: "Dr. Chidambar Inamdar",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Chidambar.jpg",
     },
     {
       name: "Prof. Karuna Deshpande",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Karuna.jpg",
     },]
@@ -93,21 +102,25 @@ const eventsData = [
     heads: [
       {
         name: "Ritesh Navalgund",
+        ig:"",
         phno: "7057561603",
         photo: "/Photos/ritesh.jpg",
       },
       {
         name: "Akshata Patil",
+        ig:"",
         phno: "8971264162",
         photo: "./Images/heads/akshata.jpg",
       },
     ],
     faculty: [{
       name: "Prof.Supriya Balekundri",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/supriya.png",
     },{
       name: "Prof. Vaishali Kulkarni",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/vaishali.jpg",
     }
@@ -129,21 +142,25 @@ const eventsData = [
     heads: [
       {
         name: "Amar Badiger",
+        ig:"",
         phno: "8861142545",
         photo: "./Images/heads/amar.jpg",
       },
       {
         name: "Tejasvi Bhadavankar",
+        ig:"",
         phno: "8217491109",
         photo: "/Photos/tejasvi.jpg",
       },
     ],
     faculty: [{
       name: "Prof. Govind Huligol",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Govind.jpg",
     },{
       name: "Mrs.Pooja Rashinkar",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Govind.jpg",
     },
@@ -165,26 +182,31 @@ const eventsData = [
     heads: [
       {
         name: "Mandar Kanbargi",
+        ig:"",
         phno: "8147581457",
         photo: "./Images/heads/mandar.jpg",
       },
       {
         name: "Sakshi Patankar",
+        ig:"",
         phno: "8073839867",
         photo: "./Images/heads/sakshi.jpg",
       },
     ],
     faculty: [{
       name: "Prof. Shruti Kulkarni",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/ShrutiK.jpg",
     },
     {
       name: "Prof. Jyoti Patil",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Jyoti.jpg",
     },{
       name:"Mrs. Shilpa Sarnaik",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/shilpa.jpg",
     }]
@@ -205,17 +227,20 @@ const eventsData = [
     heads: [
       {
         name: "Nikhil Madali",
+        ig:"",
         phno: "7760337984",
         photo: "./Images/heads/nikhil.jpg",
       },
       {
         name: "Aditya Reddy",
+        ig:"",
         phno: "9535997978",
         photo: "./Images/heads/adityaR.jpg",
       },
     ],
     faculty: [{
       name: "Mr. Goudappa Goudanavar ",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/abhishek.jpg",
     },]
@@ -236,21 +261,25 @@ const eventsData = [
     heads: [
       {
         name: "Prathamesh Patil",
+        ig:"",
         phno: "9113061708",
         photo: "./Images/heads/prathameshpatil.jpg",
       },
       {
         name: "Samarth mutagekar",
+        ig:"",
         phno: "8050496719",
         photo: "./Images/heads/prathameshpatil.jpg",
       },
     ],
     faculty:[{
       name: "Prof. Rucha Bapat",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/Rucha.jpg",
     },{
       name: "Ms Sneha",
+      ig:"",
       phno: "",
       photo: "./Images/teachers/sneha.jpg",
     },

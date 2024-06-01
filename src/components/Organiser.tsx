@@ -25,7 +25,7 @@ const Organiser = ({ faculty, heads }: Props) => {
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
             {faculty.map((fac, index) => (
-              <OphotoCard key={index} name={fac.name} phno={fac.phno} photo={fac.photo} />
+              <OphotoCard key={index} name={fac.name} phno={fac.phno} photo={fac.photo} ig={fac.ig}/>
             ))}
           </div>
 
@@ -34,7 +34,7 @@ const Organiser = ({ faculty, heads }: Props) => {
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
             {heads.map((head, index) => (
-              <OphotoCard key={index} name={head.name} phno={head.phno} photo={head.photo} />
+              <OphotoCard key={index} name={head.name} phno={head.phno} photo={head.photo} ig={head.ig}/>
             ))}
           </div>
         </div>

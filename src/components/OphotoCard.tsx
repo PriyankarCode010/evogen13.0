@@ -7,6 +7,7 @@ type Props = {
   name : string
   phno : string
   photo : string 
+  ig : string
 }
 
 const OphotoCard = (props: Props) => {
@@ -28,7 +29,7 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
-          <div className="absolute bottom-4 right-4"><FaInstagram className="text-white text-2xl hover:text-red"/></div>
+          { props.ig ? <div className="absolute bottom-4 right-4"><FaInstagram className="text-white text-2xl hover:text-red"/></div> : <></> }
         </div>
       </Fade>
     </>
