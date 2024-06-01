@@ -28,15 +28,15 @@ const eventsData = [
     faculty: [{
       name: "Prof.Vaibhav Ambekar",
       phno: "",
-      photo: "./Images/heads/Vaibhav.jpg",
+      photo: "./Images/teachers/Vaibhav.jpg",
     },{
       name: "Prof.Shruti Kanchungar",
       phno: "",
-      photo: "./Images/heads/Vaibhav.jpg",
+      photo: "./Images/teachers/Vaibhav.jpg",
     },{
       name: "Mrs Meghana Joshi",
       phno: "",
-      photo: "./Images/heads/Vaibhav.jpg",
+      photo: "./Images/teachers/Vaibhav.jpg",
     },
 
   ]
@@ -69,12 +69,12 @@ const eventsData = [
     faculty: [{
       name: "Dr. Chidambar Inamdar",
       phno: "",
-      photo: "./Images/heads/Chidambar.jpg",
+      photo: "./Images/teachers/Chidambar.jpg",
     },
     {
       name: "Prof. Karuna Deshpande",
       phno: "",
-      photo: "./Images/heads/Karuna.jpg",
+      photo: "./Images/teachers/Karuna.jpg",
     },]
   },
   {
@@ -105,11 +105,11 @@ const eventsData = [
     faculty: [{
       name: "Prof.Supriya Balekundri",
       phno: "",
-      photo: "./Images/heads/supriya.jpg",
+      photo: "./Images/teachers/supriya.jpg",
     },{
       name: "Prof. Vaishali Kulkarni",
       phno: "",
-      photo: "./Images/heads/vaishali.jpg",
+      photo: "./Images/teachers/vaishali.jpg",
     }
   ]
   },
