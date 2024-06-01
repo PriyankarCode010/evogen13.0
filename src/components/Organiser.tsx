@@ -6,6 +6,7 @@ type Person = {
   name: string;
   phno: string; 
   photo: string;
+  ig: string;
 };
 
 type Props = {
