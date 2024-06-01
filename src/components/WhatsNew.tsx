@@ -9,13 +9,13 @@ const WhatsNew = () => {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -290, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: -291, behavior: 'smooth' });
     }
   };
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 292, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: 291, behavior: 'smooth' });
     }
   };
 
