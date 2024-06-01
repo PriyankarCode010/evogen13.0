@@ -4,17 +4,17 @@ const main=[
       ppl:[
         {
           name:"Dr. Asmita Deshpande",
-          photo:"./Images/winners.webp",
+          photo:"./Images/teachers/Asmita.jpg",
           role:"BCA Co-ordinator",
         },
         {
           name:"Dr. Venugopal S. Jalihal",
-          photo:"./Images/winners.webp",
+          photo:"./Images/teachers/VENU.jpg",
           role:"Principal",
         },
         {
           name:"Shri. A. K. Tagare",
-          photo:"./Images/winners.webp",
+          photo:"./Images/teachers/Asmita.jpg",
           role:"Chairman, GC on GCC",
         }
       ]
@@ -24,12 +24,12 @@ const main=[
       ppl:[
         {
           name:"Prof. Prakash Deshpande",
-          photo:"./Images/winners.webp",
+          photo:"./Images/teachers/Prakash.jpg",
           role:"",
         },
         {
           name:"Prof Vaishali Shanbhag",
-          photo:"./Images/winners.webp",
+          photo:"./Images/teachers/Vaishali_Kale.jpg",
           role:"",
         }
       ]
