@@ -1,5 +1,6 @@
 import React from 'react'
-import { Fade } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal';
+import { FaInstagram } from "react-icons/fa6";
 
 
 type Props = {
@@ -27,7 +28,7 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
-          <div className="absolute bottom-4 right-4">O</div>
+          <div className="absolute bottom-4 right-4"><FaInstagram className="hover:bg-gradient-to-r from-purple-500 to-pink-500"/></div>
         </div>
       </Fade>
     </>
