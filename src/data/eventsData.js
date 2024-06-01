@@ -177,7 +177,7 @@ const eventsData = [
     faculty: [{
       name: "Prof. Shruti Kulkarni",
       phno: "",
-      photo: "/Photos/shruti.jpg",
+      photo: "./Images/teachers/ShrutiK.jpg",
     },
     {
       name: "Prof. Jyoti Patil",
