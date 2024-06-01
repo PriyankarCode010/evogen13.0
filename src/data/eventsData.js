@@ -130,7 +130,7 @@ const eventsData = [
       {
         name: "Amar Badiger",
         phno: "8861142545",
-        photo: "/Photos/amar.jpg",
+        photo: "./Images/heads/amar.jpg",
       },
       {
         name: "Tejasvi Bhadavankar",
@@ -206,12 +206,12 @@ const eventsData = [
       {
         name: "Nikhil Madali",
         phno: "7760337984",
-        photo: "/Photos/nikhil.jpg",
+        photo: "./Images/heads/nikhil.jpg",
       },
       {
         name: "Aditya Reddy",
         phno: "9535997978",
-        photo: "/Photos/aditya.jpg",
+        photo: "./Images/heads/adityaR.jpg",
       },
     ],
     faculty: [{
@@ -242,7 +242,7 @@ const eventsData = [
       {
         name: "Samarth mutagekar",
         phno: "8050496719",
-        photo: "/Photos/samarth.jpg",
+        photo: "./Images/heads/prathameshpatil.jpg",
       },
     ],
     faculty:[{
@@ -252,7 +252,7 @@ const eventsData = [
     },{
       name: "Ms Sneha",
       phno: "",
-      photo: "./Images/teachers/Jyoti.jpg",
+      photo: "./Images/teachers/Rucha.jpg",
     },
   ]
   },
