@@ -44,7 +44,7 @@ const main=[
         },
         {
           name:"Revathi Shresthi",
-          photo:"./Images/winners.webp",
+          photo:"./Images/heads/revathi.jpg",
           role:"Ladies Secretary",
         },
       ]
