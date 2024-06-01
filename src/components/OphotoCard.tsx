@@ -28,7 +28,7 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
-          <div className="absolute bottom-4 right-4"><FaInstagram className="hover:bg-gradient-to-r from-purple-500 to-pink-500"/></div>
+          <div className="absolute bottom-4 right-4"><FaInstagram className="text-white text-2xl hover:text-gradient-to-r from-purple-500 to-pink-500"/></div>
         </div>
       </Fade>
     </>
