@@ -110,7 +110,7 @@ const PhotoCard = (props: Props) => {
   return (
     <div className="bg-black py-10 sm:py-20">
       <div className="container mx-auto px-4">
-        <h1 className='text-red-600 font-extrabold text-4xl sm:text-6xl lg:text-8xl mb-8 sm:mb-12 text-center'>The Story of Evogen</h1> 
+        <h1 className='text-red-600 font-extrabold text-4xl sm:text-6xl lg:text-8xl mb-8 sm:mb-12 text-center'>The Story of Evogen 13.0</h1> 
         <div className="sm:max-w-screen-lg mx-auto">
           <InfiniteMovingCards
             items={testimonials}
