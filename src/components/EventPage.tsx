@@ -21,9 +21,6 @@ const EventPage = ({ id }: Props) => {
     if (!selectedEvent) {
       router.push('/404');
     }
-    setTimeout(() => {
-      window.scrollTo({ top: 200, behavior: 'smooth' });
-    }, 1000);
   }, [selectedEvent, router]);
 
   if (!selectedEvent) {
