@@ -252,7 +252,7 @@ const eventsData = [
     },{
       name: "Ms Sneha",
       phno: "",
-      photo: "./Images/teachers/Rucha.jpg",
+      photo: "./Images/teachers/sneha.jpg",
     },
   ]
   },
