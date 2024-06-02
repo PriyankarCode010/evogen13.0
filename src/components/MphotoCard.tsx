@@ -9,8 +9,6 @@ type Props = {
 }
 
 const MphotoCard = (props: Props) => {
-
-  console.log(props.photo);
   return (
     <>
       <Fade direction='left'>
