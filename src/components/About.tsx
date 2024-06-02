@@ -39,6 +39,7 @@ const About = (props: Props) => {
           </ul>
         </div>
       </div>
+      <div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div>
     </div>
   );
 }
