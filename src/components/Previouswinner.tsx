@@ -14,6 +14,9 @@ const Previouswinner = (props: Props) => {
             </p>
           </div>
         </div>
+
+      <br className=""></br>
+
         <div className='flex flex-col md:flex-row-reverse lg:flex-row-reverse sm:flex-row-reverse gap-8'>
           <div className='flex-1 flex justify-center items-center'>
             <img
