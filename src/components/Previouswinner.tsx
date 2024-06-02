@@ -6,7 +6,7 @@ const Previouswinner = (props: Props) => {
   return (
     <div className='bg-black'>
       <div className='py-16 px-4 md:py-32 md:px-20 lg:px-40 flex flex-col gap-16 md:gap-32'>
-        <div className="flex flex-col justify-center item-center gap-8 border-x-2 border-red-700">
+        <div className="flex flex-col justify-center item-center gap-8 border-x-0 md:border-x-2 border-red-700">
           <h1 className="text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold flex justify-center">About</h1>
           <div className="px-0 md:px-52">
             <p className="text-white text-sm md:text-lg lg:text-lg text-justify">
