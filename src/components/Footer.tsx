@@ -14,8 +14,8 @@ const Footer = (props: Props) => {
           <p>&copy; 2024 Evogen BCA. All Rights Reserved.</p>
         </div>
         <nav className="flex items-center gap-4">
-          <FaInstagram className="text-md" />
-          <FaSquareFacebook className="text-md" />
+          <FaInstagram className="text-lg" />
+          <FaSquareFacebook className="text-lg" />
         </nav>
       </footer>
   )
