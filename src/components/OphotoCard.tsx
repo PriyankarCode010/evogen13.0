@@ -1,10 +1,12 @@
 import React from 'react'
 import { Fade } from 'react-awesome-reveal';
+import { FaInstagram } from "react-icons/fa6";
 
 type Props = {
   name: string
   phno: string
   photo: string 
+  ig: string
 }
 
 const OphotoCard = (props: Props) => {
@@ -26,6 +28,14 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
+          {props.ig ? (
+            <div 
+              className="absolute bottom-4 right-4 cursor-pointer" 
+              onClick={() => window.open(props.ig, '_blank', 'noopener,noreferrer')}
+            >
+              <FaInstagram className="text-white text-2xl hover:text-red" />
+            </div>
+          ) : null}
         </div>
       </Fade>
     </>
