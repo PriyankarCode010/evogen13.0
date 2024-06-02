@@ -20,7 +20,7 @@ const Previouswinner = (props: Props) => {
             <h1 className='text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold mb-4 md:mb-8'>Evogen 12.0</h1>
             <div className='text-white text-sm md:text-base lg:text-lg'>
               <p>
-              Last year's fest, was a resounding success, filled with vibrant energy and diverse activities. The festivity featured a wide array of events. The winners were recognized for their outstanding talents and hard work, leaving a lasting impression on everyone present. The fest not only provided a platform for showcasing skills but also fostered camaraderie and community spirit. We look back on last year's fest with pride and look forward to continuing this tradition of excellence.
+              Last year&apos;s fest, was a resounding success, filled with vibrant energy and diverse activities. The festivity featured a wide array of events. The winners were recognized for their outstanding talents and hard work, leaving a lasting impression on everyone present. The fest not only provided a platform for showcasing skills but also fostered camaraderie and community spirit. We look back on last year&apos;s fest with pride and look forward to continuing this tradition of excellence.
               </p>
             </div>
           </div>
