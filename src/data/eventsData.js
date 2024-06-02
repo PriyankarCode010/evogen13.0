@@ -22,7 +22,7 @@ const eventsData = [
       },
       {
         name: "Priyankar Haldar",
-        ig:"https://www.instagram.com/arsonist_010_",
+        ig:"",
         phno: "6362805484",
         photo: "/Photos/priyankar.jpg",
       },
