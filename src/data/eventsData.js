@@ -162,7 +162,7 @@ const eventsData = [
       name: "Mrs.Pooja Rashinkar",
       ig:"",
       phno: "",
-      photo: "./Images/teachers/Govind.jpg",
+      photo: "./Images/teachers/pooja.jpg",
     },
   ]
   },
