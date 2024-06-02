@@ -59,7 +59,7 @@ const EventPage = ({ id }: Props) => {
           </div>
         </div>
         <hr />
-        <div className="flex justify-center p-3 gap-2">
+        <div className="flex flex-col justify-center p-3 gap-2">
           <About rules={rules} description={description} logo={logo} />
           <div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div>
         </div>
