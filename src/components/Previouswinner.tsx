@@ -13,15 +13,7 @@ const Previouswinner = (props: Props) => {
           </p>
         </div>
         <div className='flex flex-col md:flex-row lg:flex-row sm:flex-row gap-8'>
-        <div className='flex-1 text-center md:text-left'>
-            <h1 className='text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold mb-4 md:mb-8'>Evogen 12.0</h1>
-            <div className='text-white text-sm md:text-base lg:text-lg'>
-              <p>
-              Last year&apos;s fest, was a resounding success, filled with vibrant energy and diverse activities. The festivity featured a wide array of events. The winners were recognized for their outstanding talents and hard work, leaving a lasting impression on everyone present. The fest not only provided a platform for showcasing skills but also fostered camaraderie and community spirit. We look back on last year&apos;s fest with pride and look forward to continuing this tradition of excellence.
-              </p>
-            </div>
-          </div>
-          <div className='flex-1 flex justify-center items-center'>
+        <div className='flex-1 flex justify-center items-center'>
             <img
               src="./Images/evogen_12.jpeg"
               alt="Winner"
@@ -29,6 +21,14 @@ const Previouswinner = (props: Props) => {
               width={600}
               height={200}
             />
+          </div>
+        <div className='flex-1 text-center md:text-left'>
+            <h1 className='text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold mb-4 md:mb-8'>Evogen 12.0</h1>
+            <div className='text-white text-sm md:text-base lg:text-lg'>
+              <p>
+              Last year&apos;s fest, was a resounding success, filled with vibrant energy and diverse activities. The festivity featured a wide array of events. The winners were recognized for their outstanding talents and hard work, leaving a lasting impression on everyone present. The fest not only provided a platform for showcasing skills but also fostered camaraderie and community spirit. We look back on last year&apos;s fest with pride and look forward to continuing this tradition of excellence.
+              </p>
+            </div>
           </div>
         </div>
       </div>
