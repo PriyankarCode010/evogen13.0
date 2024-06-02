@@ -9,7 +9,7 @@ const Previouswinner = (props: Props) => {
         <div className="flex flex-col justify-center item-center gap-8">
           <h1 className="text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold flex justify-center">About</h1>
           <div className="px-0 md:px-52">
-            <p className="text-white text-sm md:text-lg lg:text-lg justify-text">
+            <p className="text-white text-sm md:text-lg lg:text-lg text-justify">
               Evogen is a platform for students to showcase and hone their skills in various technical activities like analysis of problems, software development, cyber security and games related to IT. The event is conceptualized and designed in such a way that it promotes personality development, entrepreneurship and technical skills among the students. With challenges more exciting, with interactions more inspiring, with concepts more ingenious and most importantly, with a festival more of fun, this edition of Evogen will unleash the treasure hidden in <span className="text-extraabold">YOU</span>.
             </p>
           </div>
