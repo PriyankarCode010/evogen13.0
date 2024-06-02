@@ -55,7 +55,7 @@ const MainOrg = (props: Props) => {
               <MphotoCard key={index} name={head.name} role={head.role} photo={head.photo} />
             ))}
           </div>
-          <div className="px-4 py-2 rounded-md bg-red-600 text-white">Register</div>
+          <div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div>
         </div>
       ) : (
         <div></div>
