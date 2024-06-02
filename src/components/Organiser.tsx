@@ -6,7 +6,6 @@ type Person = {
   name: string;
   phno: string; 
   photo: string;
-  ig: string;
 };
 
 type Props = {
@@ -35,7 +34,7 @@ const Organiser = ({ faculty, heads }: Props) => {
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
             {heads.map((head, index) => (
-              <OphotoCard key={index} name={head.name} phno={head.phno} photo={head.photo} ig={head.ig}/>
+              <OphotoCard key={index} name={head.name} phno={head.phno} photo={head.photo}/>
             ))}
           </div>
         </div>
