@@ -29,14 +29,6 @@ const OphotoCard = (props: Props) => {
               {props.phno || ''}
             </p>
           </div>
-          {props.ig ? (
-            <div 
-              className="absolute bottom-4 right-4 cursor-pointer" 
-              onClick={() => window.open(props.ig, '_blank', 'noopener,noreferrer')}
-            >
-              <FaInstagram className="text-white text-2xl hover:text-red" />
-            </div>
-          ) : null}
         </div>
       </Fade>
     </>

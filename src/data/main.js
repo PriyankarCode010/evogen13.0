@@ -23,15 +23,15 @@ const main=[
       id:"eventorg",
       ppl:[
         {
+          name:"Prof Vaishali Shanbhag",
+          photo:"./Images/teachers/Vaishali_Kale.jpg",
+          role:"",
+        },
+        {
           name:"Prof. Prakash Deshpande",
           photo:"./Images/teachers/Prakash.jpg",
           role:"",
         },
-        {
-          name:"Prof Vaishali Shanbhag",
-          photo:"./Images/teachers/Vaishali_Kale.jpg",
-          role:"",
-        }
       ]
     },
     {
