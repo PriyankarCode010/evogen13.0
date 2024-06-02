@@ -25,7 +25,7 @@ const Organiser = ({ faculty, heads }: Props) => {
           </h2>
           <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center gap-10 w-full">
             {faculty.map((fac, index) => (
-              <OphotoCard key={index} name={fac.name} phno={fac.phno} photo={fac.photo} ig={fac.ig}/>
+              <OphotoCard key={index} name={fac.name} phno={fac.phno} photo={fac.photo}/>
             ))}
           </div>
 
