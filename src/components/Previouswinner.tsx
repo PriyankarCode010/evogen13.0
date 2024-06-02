@@ -7,9 +7,9 @@ const Previouswinner = (props: Props) => {
     <div className='bg-black'>
       <div className='py-16 px-4 md:py-32 md:px-20 lg:px-40 flex flex-col gap-16 md:gap-32'>
         <div className="">
-          <h1>About</h1>
-          <p className="">
-            Evogen is a platform for students to showcase and hone their skills in various technical activities like analysis of problems, software development, cyber security and games related to IT. The event is conceptualized and designed in such a way that it promotes personality development, entrepreneurship and technical skills among the students. With challenges more exciting, with interactions more inspiring, with concepts more ingenious and most importantly, with a festival more of fun, this edition of Evogen will unleash the treasure hidden in <span>YOU</span>.
+          <h1 className="text-4xl text-red-600">About</h1>
+          <p className="text-sm text-white md:text-md">
+            Evogen is a platform for students to showcase and hone their skills in various technical activities like analysis of problems, software development, cyber security and games related to IT. The event is conceptualized and designed in such a way that it promotes personality development, entrepreneurship and technical skills among the students. With challenges more exciting, with interactions more inspiring, with concepts more ingenious and most importantly, with a festival more of fun, this edition of Evogen will unleash the treasure hidden in <span className="text-bold">YOU</span>.
           </p>
         </div>
         <div className='flex flex-col md:flex-row lg:flex-row sm:flex-row gap-8'>
