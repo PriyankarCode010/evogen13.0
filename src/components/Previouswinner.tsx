@@ -19,11 +19,9 @@ const Previouswinner = (props: Props) => {
           <div className='flex-1 text-center md:text-left'>
             <h1 className='text-red-600 text-3xl md:text-4xl lg:text-6xl font-extrabold mb-4 md:mb-8'>Evogen 12.0</h1>
             <div className='text-white text-sm md:text-base lg:text-lg'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel urna nec dui consectetur vulputate.
-              Fusce vitae magna at sapien vehicula congue. Sed placerat, est eget volutpat malesuada, metus eros
-              ullamcorper metus, nec mattis turpis risus et lectus. Nulla facilisi. Suspendisse potenti. Duis nec
-              eros sed libero faucibus finibus. Mauris auctor, ligula sed pharetra sodales, justo risus consectetur
-              ex, ac aliquet orci nunc vel lorem. Vivamus id turpis vitae odio accumsan vestibulum nec id felis.
+              <p>
+              Last year's fest, was a resounding success, filled with vibrant energy and diverse activities. The festivity featured a wide array of events. The winners were recognized for their outstanding talents and hard work, leaving a lasting impression on everyone present. The fest not only provided a platform for showcasing skills but also fostered camaraderie and community spirit. We look back on last year's fest with pride and look forward to continuing this tradition of excellence.
+              </p>
             </div>
           </div>
         </div>
