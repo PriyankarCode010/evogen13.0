@@ -36,7 +36,7 @@ const eventsData = [
       name: "Prof.Shruti Kanchungar",
       ig:"",
       phno: "",
-      photo: "./Images/teachers/Vaibhav.jpg",
+      photo: "./Images/teachers/Shruti.jpg",
     },{
       name: "Mrs Meghana Joshi",
       ig:"",
@@ -122,7 +122,7 @@ const eventsData = [
       name: "Prof. Vaishali Kulkarni",
       ig:"",
       phno: "",
-      photo: "./Images/teachers/vaishali.jpg",
+      photo: "./Images/teachers/Vaishali_K.jpg",
     }
   ]
   },
