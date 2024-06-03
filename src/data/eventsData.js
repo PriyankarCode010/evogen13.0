@@ -104,7 +104,7 @@ const eventsData = [
         name: "Ritesh Navalgund",
         ig:"",
         phno: "7057561603",
-        photo: "/Photos/ritesh.jpg",
+        photo: "./Images/heads/ritesh.jpg",
       },
       {
         name: "Akshata Patil",
@@ -150,7 +150,7 @@ const eventsData = [
         name: "Tejasvi Bhadavankar",
         ig:"",
         phno: "8217491109",
-        photo: "/Photos/tejasvi.jpg",
+        photo: "./Images/heads/tejasvi.jpg",
       },
     ],
     faculty: [{
