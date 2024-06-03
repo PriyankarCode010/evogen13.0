@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 import { LuMountain } from "react-icons/lu";
 import { FaInstagram, FaSquareFacebook } from "react-icons/fa6";
 
@@ -14,8 +13,8 @@ const Footer = (props: Props) => {
           <p>&copy; 2024 Evogen BCA. All Rights Reserved.</p>
         </div>
         <nav className="flex items-center gap-4">
-          <FaInstagram className="text-lg" />
-          <Link href={"https://www.instagram.com/gcc_bca"}><FaSquareFacebook className="text-lg" /></Link>
+        <div onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}><FaInstagram className="text-lg" /></div>
+        {/* <div onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}><FaSquareFacebook className="text-lg" /></div> */}
         </nav>
       </footer>
   )
