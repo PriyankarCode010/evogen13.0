@@ -13,7 +13,10 @@ const Footer = (props: Props) => {
           <p>&copy; 2024 Evogen BCA. All Rights Reserved.</p>
         </div>
         <nav className="flex items-center gap-4">
-        <div onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}><FaInstagram className="text-lg" /></div>
+        <div 
+         className="absolute bottom-4 right-4 cursor-pointer" 
+         onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}
+        ><FaInstagram className="text-lg" /></div>
         {/* <div onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}><FaSquareFacebook className="text-lg" /></div> */}
         </nav>
       </footer>
