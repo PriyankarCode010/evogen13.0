@@ -41,7 +41,7 @@ const eventsData = [
       name: "Mrs Meghana Joshi",
       ig:"",
       phno: "",
-      photo: "./Images/teachers/Vaibhav.jpg",
+      photo: "./Images/teachers/radhika.jpg",
     },
 
   ]

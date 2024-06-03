@@ -24,7 +24,7 @@ const Intro = (props: Props) => {
       <div className='z-40 flex flex-col items-center absolute'>
         <img src="./Images/EVOGEN.png" alt="" width={500} height={500} className="p-3"/>
         <div className='p-2 flex flex-col gap-10 md:flex-row'>
-        <a href='./Images/blue.png' download={"Brochure"} >
+        <a href='./Images/Evogen_Brochure.pdf' download={"Brochure"} >
       <button className='flex justify-center items-center pr-4 bg-red-600 px-4 py-2 rounded-md text-2xl text-white hover:bg-red-700'><MdDownload className='text-5xl px-2' />Brochure</button>
       </a>  
             <button className="bg-red-600 px-4 py-2 rounded-md text-2xl text-white hover:bg-red-700" onClick={()=>{router.push("users");}}>Watch now</button>
