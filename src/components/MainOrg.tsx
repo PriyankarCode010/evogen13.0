@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import MphotoCard from "./MphotoCard";
 import data from '@/data/main.js';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -55,7 +56,7 @@ const MainOrg = (props: Props) => {
               <MphotoCard key={index} name={head.name} role={head.role} photo={head.photo} />
             ))}
           </div>
-          <div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div>
+          <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSc21gQOpL5ty7dMNeBXtytuZSzqsfM1rFmhgz5jHCibRbHVBQ/closedform"}><div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div></Link>
         </div>
       ) : (
         <div></div>

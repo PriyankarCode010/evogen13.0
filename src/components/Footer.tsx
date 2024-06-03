@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
         </div>
         <nav className="flex items-center gap-4">
           <FaInstagram className="text-lg" />
-          <FaSquareFacebook className="text-lg" />
+          <Link href={"https://www.instagram.com/gcc_bca"}><FaSquareFacebook className="text-lg" /></Link>
         </nav>
       </footer>
   )

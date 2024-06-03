@@ -7,6 +7,7 @@ import { MdArrowBackIosNew } from "react-icons/md";
 import About from '@/components/About';
 import Organiser from '@/components/Organiser';
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 type Props = {
   id: string;
@@ -62,7 +63,7 @@ const EventPage = ({ id }: Props) => {
         <div className="flex flex-col justify-center p-3 gap-2">
           <About rules={rules} description={description} logo={logo} />
           <div className="flex justify-center item-center">
-            <div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div>
+          <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSc21gQOpL5ty7dMNeBXtytuZSzqsfM1rFmhgz5jHCibRbHVBQ/closedform"}><div className="px-5 py-2 rounded-md bg-red-600 text-white text-2xl hover:bg-red-500">Register</div></Link>
           </div>
         </div>
       </div>
