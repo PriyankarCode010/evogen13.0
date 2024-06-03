@@ -14,7 +14,7 @@ const main=[
         },
         {
           name:"Shri. A. K. Tagare",
-          photo:"./Images/teachers/Asmita.jpg",
+          photo:"./Images/teachers/",
           role:"Chairman, GC on GCC",
         }
       ]
