@@ -57,7 +57,7 @@ const eventsData = [
     rules: [
       "Number of participants is 01.",
       "Skills required - Wordplay, debating, fluent spoken english, strong vocabulary, presentation skills and role-playing abilities.",
-      "Requirements - 01 laptop, pendrive smartphones.",
+      "Requirements - Pendrive, 1 laptop, 1 smartphone with good internet connection.",
     ],
     heads: [
       {
