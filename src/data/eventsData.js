@@ -269,7 +269,7 @@ const eventsData = [
         name: "Samarth mutagekar",
         ig:"",
         phno: "8050496719",
-        photo: "./Images/heads/.jpg",
+        photo: "./Images/heads/samarth.jpg",
       },
     ],
     faculty:[{
