@@ -39,7 +39,7 @@ const main=[
       ppl:[
         {
           name:"Gagan Naik",
-          photo:"./Images/winners.webp",
+          photo:"./Images/heads/gagan.jpg",
           role:"General Secretary",
         },
         {
