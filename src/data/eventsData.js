@@ -221,8 +221,8 @@ const eventsData = [
       "Upgrade your reflexes and explore the world of virtual reality. Immerse yourself in the ultimate virtual reality experience! This GAMING EVENT is your chance to showcase your individual skills and strategies. Perfect your techniques, dominate the competition, and connect with fellow gaming enthusiasts. Precision, reflexes, and time management are your keys to victory.",
     rules: [
       "Number of participants is 01",
-      "Skills required - Basic gaming skills with planning, strategy, multitasking and basic coding skills.",
-      "Requirements - Each team must carry at least one laptop (with mouse, keyboard, charger, earphones) and mobile phones with them.",
+      "Skills required - Basic gaming skills with planning, strategy, multitasking and basics of HTML and CSS.",
+      "Requirements - Each team must carry at least one laptop (with mouse, keyboard, charger, earphones) and mobile phones(more than 4GB ram).",
     ],
     heads: [
       {
