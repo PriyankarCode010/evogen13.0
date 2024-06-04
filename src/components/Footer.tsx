@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
           <LuMountain  className="h-6 w-6" />
           <p className="text-sm md:text-base">&copy; 2024 Evogen BCA. All Rights Reserved.</p>
         </div>
-        <div className=" relative flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-4">
         <div 
          className="cursor-pointer" 
          onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}
