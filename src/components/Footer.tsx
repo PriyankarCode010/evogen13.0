@@ -14,7 +14,7 @@ const Footer = (props: Props) => {
         </div>
         <nav className=" relative flex items-center gap-4">
         <div 
-         className="absolute bottom-5 right-3 cursor-pointer" 
+         className="absolute bottom-4 right-3 cursor-pointer" 
          onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}
         ><FaInstagram className="text-xl" /></div>
         {/* <div onClick={() => window.open("https://www.instagram.com/gcc_bca", '_blank', 'noopener,noreferrer')}><FaSquareFacebook className="text-lg" /></div> */}
