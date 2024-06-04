@@ -24,7 +24,7 @@ const eventsData = [
         name: "Priyankar Haldar",
         ig:"",
         phno: "6362805484",
-        photo: "/Photos/priyankar.jpg",
+        photo: "./Images/heads/priyankar.jpg",
       },
     ],
     faculty: [{

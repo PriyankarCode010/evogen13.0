@@ -14,7 +14,7 @@ const main=[
         },
         {
           name:"Shri. A. K. Tagare",
-          photo:"./Images/teachers/",
+          photo:"./Images/teachers/tagare.jpg",
           role:"Chairman, GC on GCC",
         }
       ]
@@ -54,7 +54,7 @@ const main=[
       ppl:[
         {
           name:"Priyankar Haldar",
-          photo:"./Images/winners.webp",
+          photo:"./Images/heads/priyankar.jpg",
           role:"developer",
         }
       ]
