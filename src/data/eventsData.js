@@ -169,7 +169,7 @@ const eventsData = [
   {
     id: "data-analytics",
     name: "Stellar-Insights",
-    tagline: "Charling The unexplored Dimension",
+    tagline: "Charting The unexplored Dimension",
     logo: "./Images/events/data.png",
     bg:"./Images/eventbg/databg.jpg",
     description:
