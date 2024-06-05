@@ -55,7 +55,7 @@ const main=[
         {
           name:"Priyankar Haldar",
           photo:"./Images/heads/priyankar.jpg",
-          role:"developer",
+          role:"Codezone Secretary",
         }
       ]
     }
